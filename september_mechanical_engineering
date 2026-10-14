@@ -1,0 +1,1538 @@
+
+prompt
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+# The Ultimate Mechanical Engineering Terminology List
+
+Here’s a comprehensive mechanical engineering vocabulary guide for students, covering the fundamentals you should know in college, in the lab, during internships, and in industry. It includes core concepts, equations-related terminology, manufacturing, materials, thermodynamics, fluids, machine design, CAD, controls, and professional engineering terms.
+
+The goal isn't just to memorize definitions. You should eventually be able to **define each term, explain how it works, recognize it in a real system, and know when to use it.**
+
+## 1\. Core engineering fundamentals
+
+- **Mechanics** — Study of forces and their effects on bodies.
+- **Statics** — Study of bodies in equilibrium.
+- **Dynamics** — Study of bodies in motion.
+- **Kinematics** — Description of motion without considering its causes.
+- **Kinetics** — Study of motion in relation to forces and mass.
+- **Force** — A push or pull that can change an object's motion.
+- **Moment** — Turning effect of a force about a point or axis.
+- **Torque** — Twisting moment, commonly associated with shafts and motors.
+- **Couple** — Two equal and opposite forces separated by a distance that produce a pure moment.
+- **Equilibrium** — State in which the net force and net moment are zero.
+- **Free-body diagram (FBD)** — Diagram showing external forces and moments acting on an isolated body.
+- **Load** — Force, moment, pressure, or other demand applied to a component.
+- **Reaction force** — Force exerted by a support or constraint.
+- **Displacement** — Change in position.
+- **Distance** — Total length traveled along a path.
+- **Velocity** — Rate of change of position.
+- **Speed** — Magnitude of velocity.
+- **Acceleration** — Rate of change of velocity.
+- **Angular displacement** — Change in rotational position.
+- **Angular velocity** — Rate of change of angular position.
+- **Angular acceleration** — Rate of change of angular velocity.
+- **Mass** — Measure of inertia.
+- **Weight** — Gravitational force acting on a mass.
+- **Inertia** — Resistance to changes in motion.
+- **Center of mass** — Mass-weighted average position of a body.
+- **Centroid** — Geometric center of an area or volume.
+- **Moment of inertia** — A term for resistance to rotation or bending, depending on the type of inertia being discussed.
+- **Second moment of area** — Geometric property governing resistance to bending.
+- **Radius of gyration** — Equivalent distance that represents how mass or area is distributed relative to an axis.
+- **Work** — Energy transferred by a force acting through a displacement.
+- **Energy** — Capacity to do work.
+- **Power** — Rate of energy transfer or work.
+- **Efficiency** — Ratio of useful output to total input.
+- **Impulse** — Force integrated over a time interval.
+- **Momentum** — Mass multiplied by velocity.
+- **Angular momentum** — Rotational counterpart of linear momentum.
+- **Friction** — Resistance to relative motion between contacting surfaces.
+- **Coefficient of friction** — Ratio relating friction force to normal force under a specified friction model.
+- **Normal force** — Contact force perpendicular to a surface.
+- **Tension** — Pulling force transmitted through a member or cable.
+- **Compression** — Loading that tends to shorten a member.
+- **Shear force** — Force acting parallel to a cross-section.
+- **Bending moment** — Internal moment that bends a structural member.
+- **Distributed load** — Load spread over a length, area, or volume.
+- **Point load** — Load idealized as acting at one location.
+- **Factor of safety (FoS)** — Design margin expressed as a ratio between a capacity and a demand, using the applicable design definitions.
+- **Boundary condition** — Constraint or prescribed condition defining a problem's solution.
+- **Initial condition** — State of a system at the beginning of an analysis.
+
+## 2\. Mathematics and engineering analysis
+
+- **Scalar** — Quantity with magnitude only.
+- **Vector** — Quantity with magnitude and direction.
+- **Component** — Part of a vector along a chosen axis.
+- **Coordinate system** — Reference framework used to specify position and direction.
+- **Cartesian coordinates** — Coordinates based on perpendicular axes.
+- **Polar coordinates** — Coordinates based on radial distance and angle in a plane.
+- **Cylindrical coordinates** — Radial, angular, and axial coordinates.
+- **Spherical coordinates** — Coordinates based on distance and two angles.
+- **Derivative** — Instantaneous rate of change.
+- **Integral** — Mathematical operation used to accumulate quantities.
+- **Differential equation** — Equation involving derivatives of unknown functions.
+- **Ordinary differential equation (ODE)** — Differential equation with one independent variable.
+- **Partial differential equation (PDE)** — Differential equation with multiple independent variables.
+- **Linearization** — Approximation of a nonlinear model near a specified operating point.
+- **Nonlinear system** — System whose governing relationships are not linear.
+- **Eigenvalue** — Scalar associated with a particular eigenvector in a linear transformation.
+- **Eigenvector** — Nonzero vector whose direction remains unchanged under a linear transformation.
+- **Matrix** — Rectangular array of mathematical values.
+- **Numerical methods** — Computational techniques for approximating mathematical solutions.
+- **Interpolation** — Estimation between known data points.
+- **Extrapolation** — Estimation beyond known data.
+- **Regression** — Method for fitting a model to observed data.
+- **Residual** — Difference between an observed value and a model prediction.
+- **Convergence** — Tendency of an iterative solution to approach a stable result.
+- **Error tolerance** — Accepted limit on numerical or measurement error.
+- **Sensitivity analysis** — Study of how outputs change when inputs vary.
+- **Dimensional analysis** — Analysis using physical dimensions to check relationships and develop models.
+- **Dimensional homogeneity** — Requirement that both sides of a physical equation have consistent dimensions.
+- **Similarity** — Correspondence between systems based on relevant geometric and physical scaling.
+- **Nondimensionalization** — Rewriting equations in terms of dimensionless variables.
+- **Order of magnitude** — Approximate scale of a quantity, usually by powers of ten.
+- **Significant figures** — Digits representing the precision of a numerical value.
+- **Uncertainty** — Quantified doubt associated with a measurement or result.
+- **Propagation of uncertainty** — How input uncertainties affect a calculated output.
+- **Curve fitting** — Finding a mathematical function that represents data.
+- **Optimization** — Finding the best solution under a defined objective and constraints.
+
+## 3\. Units, dimensions, and measurement
+
+- **SI units** — International System of Units.
+- **Imperial units** — Traditional unit system used in some engineering contexts.
+- **US customary units** — Common US system including inches, feet, pounds, and Fahrenheit.
+- **Base quantity** — Fundamental physical quantity such as length, mass, or time.
+- **Derived quantity** — Quantity defined using base quantities.
+- **Unit conversion** — Converting a value between compatible units.
+- **Dimensional consistency** — Agreement of physical dimensions in an equation.
+- **Resolution** — Smallest change an instrument can display or distinguish.
+- **Accuracy** — Closeness of a result to an accepted reference value.
+- **Precision** — Closeness of repeated results to one another.
+- **Repeatability** — Agreement under repeated measurements using the same conditions.
+- **Reproducibility** — Agreement when measurement conditions vary.
+- **Calibration** — Comparing an instrument with a reference to establish its measurement behavior.
+- **Traceability** — Connection of a measurement result to recognized references through a documented calibration chain.
+- **Systematic error** — Error that consistently shifts measurements in a particular way.
+- **Random error** — Error that varies unpredictably between measurements.
+- **Significant digits** — Digits retained to represent numerical precision.
+- **Gauge pressure** — Pressure relative to local atmospheric pressure.
+- **Absolute pressure** — Pressure measured relative to a perfect vacuum.
+- **Differential pressure** — Difference between two pressures.
+- **Atmospheric pressure** — Pressure exerted by the surrounding atmosphere.
+- **Temperature scale** — Framework for expressing temperature, such as Celsius, Fahrenheit, or Kelvin.
+- **Tolerance** — Permitted variation from a specified value.
+- **Metrology** — Science of measurement.
+- **Measurement uncertainty** — Quantified range or parameter describing doubt in a measurement result.
+
+## 4\. Engineering materials and material science
+
+- **Material science** — Study of the structure, properties, processing, and performance of materials.
+- **Ferrous metal** — Metal or alloy primarily based on iron.
+- **Nonferrous metal** — Metal or alloy not primarily based on iron.
+- **Alloy** — Material containing multiple elements, at least one of which is metallic.
+- **Microstructure** — Arrangement of grains, phases, and defects within a material.
+- **Crystal structure** — Ordered atomic arrangement in a crystalline solid.
+- **Grain** — Region of a crystalline material with a particular crystal orientation.
+- **Grain boundary** — Interface between adjacent grains.
+- **Phase** — Region of material with a distinct structure and composition.
+- **Phase diagram** — Diagram showing stable phases under specified conditions.
+- **Iron-carbon diagram** — Phase diagram used to understand steels and cast irons.
+- **Ferrite** — Relatively soft, low-carbon iron-based phase in steel.
+- **Austenite** — Face-centered cubic phase of iron important in steel processing.
+- **Cementite** — Iron carbide, Fe₃C, found in many steels and cast irons.
+- **Pearlite** — Microstructure consisting of alternating ferrite and cementite.
+- **Martensite** — Hard phase formed by rapid cooling of suitable steels.
+- **Bainite** — Steel microstructure formed through specific transformation conditions.
+- **Ductility** — Ability to undergo plastic deformation before fracture.
+- **Malleability** — Ability to deform plastically under compressive loading.
+- **Brittleness** — Tendency to fracture with limited plastic deformation.
+- **Elasticity** — Ability to recover deformation after unloading.
+- **Plasticity** — Ability to retain permanent deformation.
+- **Strength** — Ability to withstand a specified type of loading without failure.
+- **Stiffness** — Resistance to elastic deformation.
+- **Hardness** — Resistance to localized indentation, scratching, or penetration.
+- **Toughness** — Ability to absorb energy before fracture.
+- **Resilience** — Energy absorbed elastically before yielding.
+- **Young's modulus** — Ratio of normal stress to normal strain in the linear elastic range.
+- **Shear modulus** — Ratio of shear stress to shear strain in the linear elastic range.
+- **Bulk modulus** — Measure of resistance to uniform compression.
+- **Poisson's ratio** — Ratio of lateral strain to axial strain magnitude under uniaxial loading.
+- **Yield strength** — Stress at which specified plastic deformation begins.
+- **Ultimate tensile strength (UTS)** — Maximum engineering tensile stress reached in a tensile test.
+- **Fracture strength** — Stress associated with fracture under specified test conditions.
+- **Compressive strength** — Resistance to compressive loading.
+- **Shear strength** — Resistance to shear failure.
+- **Fatigue strength** — Stress level associated with a specified fatigue life and test condition.
+- **Creep** — Time-dependent deformation under sustained loading.
+- **Stress relaxation** — Reduction in stress over time under constrained deformation.
+- **Strain hardening** — Increase in strength caused by plastic deformation.
+- **Work hardening** — Another term for strain hardening.
+- **Annealing** — Heat treatment used to soften a material or modify its structure and residual stresses.
+- **Normalizing** — Heat treatment commonly used to refine the microstructure of steel.
+- **Quenching** — Rapid cooling after heating.
+- **Tempering** — Heat treatment after hardening to adjust properties and reduce brittleness.
+- **Case hardening** — Producing a hard surface with a comparatively softer interior.
+- **Carburizing** — Increasing carbon content near a steel surface.
+- **Nitriding** — Introducing nitrogen into a steel surface to improve surface properties.
+- **Induction hardening** — Surface hardening using electromagnetic induction heating followed by quenching.
+- **Weldability** — Suitability of a material for producing an acceptable weld.
+- **Machinability** — Ease of machining a material to the required specification.
+- **Corrosion** — Deterioration caused by chemical or electrochemical reactions.
+- **Oxidation** — Reaction involving electron loss or, commonly in engineering, reaction with oxygen.
+- **Galvanic corrosion** — Accelerated corrosion that can occur when dissimilar conductive materials are electrically connected in an electrolyte.
+- **Passivation** — Formation or maintenance of a protective surface film.
+- **Thermal expansion** — Change in dimensions due to temperature change.
+- **Thermal conductivity** — Ability to conduct heat.
+- **Electrical conductivity** — Ability to conduct electric current.
+- **Specific heat capacity** — Energy required per unit mass to raise temperature by one degree.
+- **Density** — Mass per unit volume.
+- **Porosity** — Fraction or degree of void space within a material.
+- **Composite material** — Material made from distinct constituents combined for desired properties.
+- **Fiber-reinforced polymer (FRP)** — Polymer reinforced with fibers such as glass or carbon.
+- **Ceramic** — Inorganic, nonmetallic material generally processed at elevated temperatures.
+- **Polymer** — Material made of long molecular chains or networks.
+- **Thermoplastic** — Polymer that can generally be softened by heating and reshaped.
+- **Thermoset** — Polymer that forms a cross-linked network and cannot be remelted like a typical thermoplastic.
+- **Elastomer** — Polymer capable of substantial elastic deformation.
+- **Shape memory alloy** — Alloy capable of recovering a trained shape under suitable conditions.
+- **Smart material** — Material that responds usefully to environmental or applied stimuli.
+- **Fracture toughness** — Resistance to crack propagation under specified conditions.
+- **Residual stress** — Stress remaining in a material without external loading.
+- **Delamination** — Separation between layers in a layered material or composite.
+- **Heat-affected zone (HAZ)** — Material near a weld that experiences thermal changes without melting.
+- **Embrittlement** — Loss of ductility or toughness.
+- **Hydrogen embrittlement** — Loss of ductility or cracking associated with hydrogen in susceptible materials.
+- **Stress corrosion cracking** — Cracking caused by the combined influence of tensile stress and a corrosive environment.
+
+## 5\. Strength of materials and solid mechanics
+
+- **Normal stress** — Force per unit area acting perpendicular to a cross-section.
+- **Shear stress** — Force per unit area acting tangentially to a surface.
+- **Engineering stress** — Load divided by original cross-sectional area.
+- **True stress** — Stress calculated using the instantaneous cross-sectional area.
+- **Engineering strain** — Change in length divided by original length.
+- **True strain** — Strain measure based on incremental deformation relative to current length.
+- **Axial loading** — Loading along a member's longitudinal axis.
+- **Tensile loading** — Loading that pulls a member apart.
+- **Compressive loading** — Loading that pushes a member together.
+- **Torsion** — Twisting of a member under torque.
+- **Bending** — Deformation caused by bending moments.
+- **Transverse shear** — Shear associated with forces acting transverse to a member.
+- **Shear flow** — Shear force transmitted per unit length, commonly used for thin-walled structures.
+- **Hooke's law** — Linear relationship between stress and strain within the elastic range.
+- **Stress-strain curve** — Graph describing a material's response to loading.
+- **Proportional limit** — Limit below which stress and strain remain proportional.
+- **Elastic limit** — Approximate limit of recoverable deformation.
+- **Yield point** — Stress level at which yielding becomes evident in certain materials.
+- **Offset yield strength** — Yield strength determined using a specified offset strain, often 0.2%.
+- **Modulus of elasticity** — Another name for Young's modulus in uniaxial loading.
+- **Elastic deformation** — Recoverable deformation.
+- **Plastic deformation** — Permanent deformation.
+- **Axial deformation** — Change in length due to axial loading.
+- **Beam** — Structural member primarily designed to resist transverse loads and bending.
+- **Cantilever beam** — Beam fixed at one end and free at the other.
+- **Simply supported beam** — Beam supported at two ends with idealized support conditions.
+- **Fixed support** — Support that prevents specified translation and rotation.
+- **Pin support** — Idealized support that prevents translation while permitting rotation.
+- **Roller support** — Idealized support that allows motion in one direction while constraining another.
+- **Shear-force diagram (SFD)** — Plot of internal shear force along a beam.
+- **Bending-moment diagram (BMD)** — Plot of internal bending moment along a beam.
+- **Deflection** — Displacement of a structural member from its original position.
+- **Slope of a beam** — Angular rotation of the beam's deflected centerline.
+- **Flexural rigidity** — Product of Young's modulus and second moment of area, $EI$.
+- **Neutral axis** — Line or surface in a bent member where longitudinal bending strain is zero.
+- **Section modulus** — Geometric property relating bending moment to maximum bending stress.
+- **Polar moment of inertia** — Geometric property describing a cross-section's distribution of area about an axis, commonly used for circular-shaft torsion.
+- **Thin-walled pressure vessel** — Vessel whose wall thickness is small relative to its radius.
+- **Hoop stress** — Circumferential stress in a pressure vessel.
+- **Longitudinal stress** — Axial stress in a pressure vessel.
+- **Buckling** — Instability involving sudden lateral deformation under compressive loading.
+- **Euler buckling** — Ideal elastic buckling model for slender columns.
+- **Slenderness ratio** — Measure comparing a column's effective length with its radius of gyration.
+- **Effective length** — Equivalent buckling length based on end restraints.
+- **Column** — Member primarily subjected to compression.
+- **Strut** — Compression-carrying member.
+- **Stress concentration** — Local increase in stress caused by geometric or material discontinuities.
+- **Stress concentration factor** — Ratio of peak local stress to a nominal stress.
+- **Notch sensitivity** — Degree to which a material's fatigue performance is affected by notches.
+- **Principal stress** — Normal stress acting on a plane with zero shear stress.
+- **Principal plane** — Plane on which shear stress is zero.
+- **Mohr's circle** — Graphical method for transforming stress or strain components.
+- **Von Mises stress** — Equivalent stress used to assess yielding in many ductile materials.
+- **Tresca criterion** — Yield criterion based on maximum shear stress.
+- **Combined loading** — Simultaneous action of multiple load types.
+- **Superposition** — Combining responses to individual loads when the system is linear.
+- **Strain energy** — Energy stored by deformation.
+- **Castigliano's theorem** — Method for finding displacements from derivatives of strain energy.
+- **Statically indeterminate structure** — Structure requiring compatibility and deformation relationships in addition to equilibrium.
+- **Compatibility condition** — Requirement that connected parts deform consistently.
+- **Fatigue** — Progressive damage under repeated or fluctuating loading.
+- **S-N curve** — Plot of stress amplitude against cycles to failure.
+- **Endurance limit** — Stress amplitude below which certain materials exhibit a fatigue limit under specified conditions.
+- **Crack propagation** — Growth of an existing crack.
+- **Paris law** — Empirical relationship between fatigue crack-growth rate and stress-intensity-factor range.
+- **Stress intensity factor** — Parameter describing the severity of a crack-tip stress field.
+- **Fracture mechanics** — Study of cracks, crack growth, and fracture.
+- **Low-cycle fatigue** — Fatigue involving relatively large cyclic strains and generally fewer cycles.
+- **High-cycle fatigue** — Fatigue involving many cycles, often with predominantly elastic strain.
+- **Creep rupture** — Failure after time-dependent deformation under sustained loading.
+- **Contact stress** — Stress arising from forces between contacting surfaces.
+- **Hertzian contact** — Elastic contact analysis for curved surfaces.
+- **Wear** — Material loss or surface damage from contact and relative motion.
+- **Tribology** — Study of friction, lubrication, and wear.
+
+## 6\. Thermodynamics
+
+- **Thermodynamics** — Study of heat, work, energy, and their transformations.
+- **System** — The portion of the universe selected for analysis.
+- **Surroundings** — Everything outside the chosen system.
+- **Boundary** — Real or imaginary surface separating a system from its surroundings.
+- **Closed system** — System that exchanges energy but not mass with its surroundings.
+- **Open system** — System that can exchange mass and energy with its surroundings.
+- **Isolated system** — Ideal system that exchanges neither mass nor energy.
+- **Control volume** — Defined region through which mass and energy may flow.
+- **State** — Condition of a system described by its properties.
+- **Property** — Measurable or calculable characteristic of a system.
+- **State variable** — Variable describing the state of a system.
+- **State function** — Property depending on state rather than the path taken.
+- **Process** — Change from one thermodynamic state to another.
+- **Cycle** — Sequence of processes returning a system to its initial state.
+- **Equation of state** — Relationship between thermodynamic properties.
+- **Ideal gas** — Model gas obeying $PV=mRT$.
+- **Real gas** — Gas whose behavior can deviate from the ideal-gas model.
+- **Pressure** — Normal force per unit area.
+- **Temperature** — Property related to thermal equilibrium and the direction of heat transfer.
+- **Internal energy** — Microscopic energy stored within a substance.
+- **Enthalpy** — Property defined as $H=U+PV$.
+- **Entropy** — Thermodynamic property used in energy-quality analysis and the second law.
+- **Specific volume** — Volume per unit mass.
+- **Specific heat** — Heat capacity expressed per unit mass, often specified at constant pressure or volume.
+- **Heat** — Energy transferred because of a temperature difference.
+- **Work transfer** — Energy transferred through a work interaction.
+- **Sensible heat** — Energy transfer associated with temperature change without a phase change in the idealized process.
+- **Latent heat** — Energy associated with a phase change at specified conditions.
+- **First law of thermodynamics** — Conservation of energy.
+- **Second law of thermodynamics** — Governs entropy generation and the direction of natural processes.
+- **Zeroth law of thermodynamics** — Establishes the transitive nature of thermal equilibrium.
+- **Third law of thermodynamics** — Describes the limiting behavior of entropy as temperature approaches absolute zero for an ideal perfect crystal.
+- **Isothermal process** — Process at constant temperature.
+- **Isobaric process** — Process at constant pressure.
+- **Isochoric process** — Process at constant volume.
+- **Isometric process** — Another term sometimes used for constant-volume processes.
+- **Adiabatic process** — Process with no heat transfer across the system boundary.
+- **Isentropic process** — Process at constant entropy.
+- **Polytropic process** — Process modeled by a relationship such as $PV^n=C$.
+- **Quasistatic process** — Idealized process proceeding through near-equilibrium states.
+- **Reversible process** — Ideal process that can be reversed without leaving net changes in the system and surroundings.
+- **Irreversibility** — Departure from reversible behavior, commonly associated with entropy generation.
+- **Thermal equilibrium** — State in which no net heat transfer occurs due to temperature differences.
+- **Thermal efficiency** — Useful work output divided by heat input for an applicable heat-engine cycle.
+- **Coefficient of performance (COP)** — Heating or cooling delivered divided by work input.
+- **Heat engine** — Device that converts heat into work while operating in a cycle.
+- **Refrigerator** — Device that removes heat from a low-temperature region using work input.
+- **Heat pump** — Device that supplies heat to a region using work input.
+- **Carnot cycle** — Ideal reversible cycle establishing limits on thermal efficiency or COP.
+- **Otto cycle** — Idealized cycle used to model spark-ignition engines.
+- **Diesel cycle** — Idealized cycle used to model compression-ignition engines.
+- **Dual cycle** — Idealized cycle combining constant-volume and constant-pressure heat addition.
+- **Brayton cycle** — Idealized gas-turbine cycle.
+- **Rankine cycle** — Idealized vapor power cycle used in steam power plants.
+- **Vapor-compression cycle** — Refrigeration cycle using compression, condensation, expansion, and evaporation.
+- **Psychrometrics** — Study of moist-air properties.
+- **Relative humidity** — Ratio of actual water-vapor pressure to saturation vapor pressure at the same temperature.
+- **Dew point** — Temperature at which air becomes saturated when cooled at the specified pressure and moisture content.
+- **Wet-bulb temperature** — Temperature measured or defined through evaporative cooling under specified conditions.
+- **Dry-bulb temperature** — Ordinary air temperature measured by a suitably exposed thermometer.
+- **Superheated vapor** — Vapor above its saturation temperature at a given pressure.
+- **Subcooled liquid** — Liquid below its saturation temperature at a given pressure.
+- **Saturated liquid** — Liquid at the state where vaporization is about to begin.
+- **Saturated vapor** — Vapor at the state where condensation is about to begin.
+- **Quality (dryness fraction)** — Mass fraction of vapor in a saturated liquid-vapor mixture.
+- **Critical point** — State where the liquid-vapor distinction disappears.
+- **Triple point** — Conditions at which three phases coexist in equilibrium.
+- **Throttling process** — Flow process modeled with approximately constant enthalpy.
+- **Joule-Thomson effect** — Temperature change associated with throttling a real gas.
+- **Combustion** — Chemical reaction releasing energy, commonly through oxidation.
+- **Stoichiometric ratio** — Reactant ratio corresponding to complete reaction under the specified chemical model.
+- **Air-fuel ratio (AFR)** — Mass of air divided by mass of fuel.
+- **Excess air** — Air supplied beyond the stoichiometric requirement.
+- **Calorific value** — Energy released per unit quantity of fuel during complete combustion under specified conditions.
+- **Higher heating value (HHV)** — Fuel heating value accounting for recovery of water-vapor condensation energy.
+- **Lower heating value (LHV)** — Fuel heating value excluding recovery of that condensation energy.
+- **Exergy** — Maximum useful work obtainable as a system comes into equilibrium with a defined environment.
+- **Exergy destruction** — Loss of work potential caused by irreversibility.
+
+## 7\. Heat transfer
+
+- **Heat transfer** — Movement of thermal energy due to a temperature difference.
+- **Conduction** — Heat transfer through matter via microscopic interactions.
+- **Convection** — Heat transfer between a surface and a moving fluid.
+- **Natural convection** — Fluid motion driven primarily by buoyancy effects.
+- **Forced convection** — Fluid motion driven by a fan, pump, or other external mechanism.
+- **Radiation** — Energy transfer through electromagnetic waves.
+- **Thermal resistance** — Opposition to heat transfer.
+- **Thermal circuit** — Equivalent resistance-network representation of heat transfer.
+- **Thermal conductivity,****$k$** — Material property describing conductive heat transfer.
+- **Heat flux** — Heat-transfer rate per unit area.
+- **Temperature gradient** — Spatial rate of temperature change.
+- **Fourier's law** — Relationship between conductive heat flux and temperature gradient.
+- **Newton's law of cooling** — Convective heat-transfer model using a heat-transfer coefficient.
+- **Stefan-Boltzmann law** — Relationship between thermal radiation and absolute temperature to the fourth power for an ideal blackbody.
+- **Emissivity** — Measure of a surface's emission relative to a blackbody.
+- **Absorptivity** — Fraction of incident radiation absorbed.
+- **Reflectivity** — Fraction of incident radiation reflected.
+- **Transmissivity** — Fraction of incident radiation transmitted.
+- **Blackbody** — Ideal surface that absorbs all incident radiation and emits the maximum possible thermal radiation at a given temperature.
+- **View factor** — Geometric factor describing radiation exchange between surfaces.
+- **Overall heat-transfer coefficient,****$U$** — Combined coefficient representing multiple heat-transfer resistances.
+- **Log mean temperature difference (LMTD)** — Effective average temperature difference used in heat-exchanger analysis.
+- **Heat exchanger** — Device that transfers heat between fluids.
+- **Parallel-flow heat exchanger** — Exchanger in which fluids move in the same general direction.
+- **Counterflow heat exchanger** — Exchanger in which fluids move in opposite directions.
+- **Crossflow heat exchanger** — Exchanger in which fluid streams cross at an angle, typically near 90 degrees.
+- **Effectiveness** — Actual heat transfer divided by the maximum possible heat transfer for a specified inlet state.
+- **NTU method** — Heat-exchanger analysis method based on the number of transfer units and capacity-rate ratio.
+- **Thermal diffusivity** — Ratio of thermal conductivity to volumetric heat capacity.
+- **Biot number** — Ratio of internal conduction resistance to external convection resistance in a characteristic model.
+- **Fourier number** — Dimensionless time used in transient heat conduction.
+- **Nusselt number** — Dimensionless measure of convective relative to conductive heat transfer.
+- **Prandtl number** — Ratio of momentum diffusivity to thermal diffusivity.
+- **Rayleigh number** — Dimensionless parameter characterizing buoyancy-driven convection.
+- **Grashof number** — Ratio comparing buoyancy and viscous effects in natural convection.
+- **Transient heat transfer** — Heat transfer with temperature changing over time.
+- **Steady-state heat transfer** — Heat transfer under conditions where temperatures at fixed locations do not change with time.
+- **Thermal contact resistance** — Resistance to heat flow between contacting surfaces.
+- **Fin** — Extended surface used to increase heat-transfer area.
+- **Fin efficiency** — Actual fin heat transfer divided by the ideal maximum at the base temperature.
+- **Heat sink** — Component designed to dissipate heat to its surroundings.
+- **Thermal runaway** — Self-reinforcing temperature rise when heat generation increases faster than heat removal.
+- **Phase-change material (PCM)** — Material used to store or release thermal energy through a phase change.
+- **Thermal management** — Controlling heat generation, transfer, and dissipation to maintain acceptable temperatures.
+
+## 8\. Fluid mechanics
+
+- **Fluid** — Substance that continuously deforms under applied shear stress.
+- **Fluid statics** — Study of fluids at rest.
+- **Fluid dynamics** — Study of moving fluids.
+- **Continuum assumption** — Model treating matter as continuously distributed rather than tracking individual molecules.
+- **Density** — Mass per unit volume.
+- **Specific weight** — Weight per unit volume.
+- **Specific gravity** — Ratio of a substance's density to a reference density.
+- **Viscosity** — Measure of a fluid's resistance to shearing flow.
+- **Dynamic viscosity** — Proportionality between shear stress and velocity gradient for a Newtonian fluid.
+- **Kinematic viscosity** — Dynamic viscosity divided by density.
+- **Newtonian fluid** — Fluid whose shear stress is proportional to shear rate under the standard model.
+- **Non-Newtonian fluid** — Fluid whose shear stress does not follow the simple Newtonian relationship.
+- **Compressible flow** — Flow in which density changes are significant.
+- **Incompressible flow** — Flow modeled with negligible density changes.
+- **Steady flow** — Flow properties at a fixed location do not vary with time.
+- **Unsteady flow** — Flow properties vary with time.
+- **Laminar flow** — Flow dominated by orderly layers with limited mixing across them.
+- **Turbulent flow** — Flow featuring fluctuating motion and enhanced mixing.
+- **Reynolds number** — Dimensionless ratio of inertial to viscous effects.
+- **Mach number** — Ratio of flow speed to local speed of sound.
+- **Froude number** — Dimensionless ratio relating inertia to gravity effects.
+- **Strouhal number** — Dimensionless measure relating oscillation frequency to flow speed and characteristic length.
+- **Volumetric flow rate** — Volume of fluid passing a section per unit time.
+- **Mass flow rate** — Mass of fluid passing a section per unit time.
+- **Velocity profile** — Distribution of flow velocity across a section.
+- **Boundary layer** — Region near a surface where viscous effects are important.
+- **Boundary-layer separation** — Detachment of a boundary layer from a surface, often due to an adverse pressure gradient.
+- **No-slip condition** — Idealized condition in which fluid velocity at a stationary solid surface equals the surface velocity.
+- **Pressure head** — Pressure expressed as an equivalent height of fluid.
+- **Velocity head** — Kinetic energy per unit weight expressed as a height.
+- **Elevation head** — Gravitational potential energy per unit weight expressed as a height.
+- **Hydrostatic pressure** — Pressure variation in a fluid at rest due to gravity.
+- **Pascal's law** — Pressure changes applied to a confined fluid are transmitted throughout it in the idealized static model.
+- **Archimedes' principle** — Buoyant force equals the weight of displaced fluid.
+- **Buoyancy** — Upward or otherwise opposing gravitational force exerted by a surrounding fluid.
+- **Bernoulli's equation** — Energy relationship along a streamline under specified assumptions.
+- **Continuity equation** — Mass conservation relationship for fluid flow.
+- **Momentum equation** — Relationship describing the rate of momentum change and applied forces.
+- **Navier-Stokes equations** — Governing equations for fluid motion incorporating momentum conservation and viscous stresses.
+- **Euler equation** — Idealized fluid momentum equation neglecting viscosity.
+- **Pitot tube** — Instrument used to infer flow velocity from pressure measurements.
+- **Venturi meter** — Flow-measurement device using pressure differences across a constriction.
+- **Orifice plate** — Restriction used to estimate flow from a pressure difference.
+- **Rotameter** — Variable-area flow meter using a float.
+- **Manometer** — Instrument that measures pressure using a liquid column.
+- **Differential pressure sensor** — Instrument measuring the pressure difference between two points.
+- **Drag** — Fluid force opposing relative motion in the direction of flow.
+- **Lift** — Fluid force perpendicular to the relative flow direction.
+- **Drag coefficient** — Dimensionless coefficient characterizing drag under specified conditions.
+- **Lift coefficient** — Dimensionless coefficient characterizing lift under specified conditions.
+- **Pressure coefficient** — Dimensionless representation of local pressure relative to a reference flow condition.
+- **Cavitation** — Formation and collapse of vapor cavities when local pressure falls sufficiently low.
+- **Water hammer** — Pressure surge caused by rapid changes in liquid flow velocity.
+- **Head loss** — Reduction in mechanical energy per unit weight caused by flow resistance.
+- **Major loss** — Flow energy loss along straight pipe due to friction.
+- **Minor loss** — Additional loss caused by fittings, valves, entrances, exits, and geometry changes.
+- **Darcy-Weisbach equation** — Equation for pressure or head loss due to pipe friction.
+- **Moody chart** — Chart used to estimate the Darcy friction factor.
+- **Darcy friction factor** — Dimensionless coefficient used in Darcy-Weisbach calculations.
+- **Hydraulic diameter** — Equivalent diameter used for flow through noncircular ducts.
+- **Relative roughness** — Pipe roughness height divided by internal diameter.
+- **Pump** — Machine that adds mechanical energy to a fluid.
+- **Turbine** — Machine that extracts energy from a fluid.
+- **Pump head** — Energy added by a pump per unit weight of fluid.
+- **System curve** — Relationship between required pumping head and flow rate.
+- **Pump curve** — Relationship between pump performance variables such as head, flow, and efficiency.
+- **Operating point** — Intersection of the pump curve and system curve.
+- **Net positive suction head (NPSH)** — Measure used to evaluate suction-side pressure conditions relative to vapor pressure.
+- **NPSH available (NPSHa)** — Suction pressure margin calculated for the installed system.
+- **NPSH required (NPSHr)** — Manufacturer-specified suction condition associated with a stated pump-performance criterion.
+- **Priming** — Filling a pump or suction line with liquid so pumping can begin as intended.
+- **Positive-displacement pump** — Pump that moves fluid by repeatedly trapping and displacing a volume.
+- **Centrifugal pump** — Rotodynamic pump that transfers energy using a rotating impeller.
+- **Impeller** — Rotating component that transfers energy to fluid in many pumps and turbines.
+- **Volute** — Spiral-shaped casing used to collect flow from an impeller.
+- **Diffuser** — Passage that decelerates flow and converts kinetic energy into pressure.
+- **Hydraulic efficiency** — Measure of useful hydraulic output relative to input under a specified definition.
+- **Pump affinity laws** — Approximate scaling relationships between speed, flow, head, and power for geometrically similar operation.
+- **Hydraulic circuit** — Arrangement of components controlling liquid power transmission.
+- **Hydraulic actuator** — Device that converts hydraulic energy into mechanical motion.
+- **Hydraulic accumulator** — Device storing pressurized hydraulic energy.
+- **Pneumatics** — Technology using compressed gas to transmit power or control motion.
+
+## 9\. Machine design and mechanical components
+
+- **Machine element** — Individual component serving a mechanical function.
+- **Mechanism** — Arrangement of components that produces or transmits motion.
+- **Kinematic pair** — Connection between bodies that permits a defined relative motion.
+- **Degree of freedom (DOF)** — Number of independent coordinates needed to describe a system's configuration.
+- **Linkage** — Connected rigid or flexible members used to transmit or transform motion.
+- **Four-bar linkage** — Mechanism consisting of four links connected by four joints.
+- **Slider-crank mechanism** — Mechanism converting rotary motion to reciprocating motion or vice versa.
+- **Cam** — Shaped component that controls follower motion.
+- **Follower** — Component that tracks a cam profile.
+- **Gear** — Toothed element transmitting rotational motion and torque.
+- **Gear ratio** — Ratio relating rotational speeds or tooth counts for a defined gear arrangement.
+- **Gear train** — Multiple interconnected gears.
+- **Spur gear** — Gear with straight teeth parallel to its axis.
+- **Helical gear** — Gear with angled teeth.
+- **Bevel gear** — Gear designed to transmit motion between intersecting shafts.
+- **Worm gear** — Gear arrangement commonly used for large speed reductions between nonparallel, nonintersecting shafts.
+- **Rack and pinion** — Gear pair converting rotary motion to linear motion or vice versa.
+- **Planetary gearset** — Gear arrangement with planet gears revolving around a central sun gear.
+- **Sun gear** — Central gear in a planetary gearset.
+- **Ring gear** — Outer gear in many planetary gearsets.
+- **Planet carrier** — Component supporting the planet gear shafts.
+- **Backlash** — Clearance between mating gear teeth.
+- **Gear module** — Metric measure of gear tooth size.
+- **Diametral pitch** — Number of gear teeth per unit pitch diameter in inch-based gear systems.
+- **Pitch circle** — Reference circle used to define gear geometry and motion.
+- **Pressure angle** — Angle defining the direction of tooth contact force relative to the tangent at the pitch point.
+- **Involute profile** — Common gear tooth profile generated from an unwinding taut string.
+- **Helix angle** — Angle between a helical tooth and the gear axis.
+- **Contact ratio** — Average number of tooth pairs in contact during gear engagement.
+- **Bearing** — Component that supports and guides relative motion.
+- **Rolling-element bearing** — Bearing using balls or rollers between raceways.
+- **Ball bearing** — Bearing using spherical rolling elements.
+- **Roller bearing** — Bearing using cylindrical, tapered, spherical, or other roller elements.
+- **Thrust bearing** — Bearing designed primarily for axial loads.
+- **Journal bearing** — Sliding bearing supporting a shaft on a journal surface.
+- **Plain bearing** — Bearing with sliding rather than rolling contact.
+- **Bearing clearance** — Internal space or play between bearing components.
+- **Bearing preload** — Intentional internal loading to reduce play or increase stiffness.
+- **Bearing life** — Expected service duration under specified operating conditions and statistical assumptions.
+- **L10 life** — Bearing life that 90% of a sufficiently large group of identical bearings are expected to reach or exceed under specified conditions.
+- **Lubrication** — Introducing a substance to reduce friction, wear, or heat.
+- **Lubricant viscosity** — Resistance of a lubricant to flow and shear.
+- **Viscosity index** — Measure of how strongly a lubricant's viscosity changes with temperature.
+- **Grease lubrication** — Lubrication using a semisolid mixture of base oil, thickener, and additives.
+- **Hydrodynamic lubrication** — Lubrication where relative motion creates a load-supporting fluid film.
+- **Hydrostatic lubrication** — Lubrication where externally pressurized fluid supports the load.
+- **Elastohydrodynamic lubrication (EHL)** — Lubrication regime involving elastic deformation and pressure-dependent lubricant properties.
+- **Boundary lubrication** — Regime in which surface interactions and thin films carry much of the load.
+- **Shaft** — Rotating or stationary member supporting components and transmitting torque.
+- **Axle** — Member supporting rotating components, not necessarily transmitting torque.
+- **Key** — Element that prevents relative rotation between a shaft and a mounted component.
+- **Keyway** — Slot receiving a key.
+- **Spline** — Multiple ridges or teeth transmitting torque between mating components.
+- **Coupling** — Device connecting two shafts.
+- **Rigid coupling** — Coupling designed to connect aligned shafts with minimal flexibility.
+- **Flexible coupling** — Coupling that accommodates specified misalignment or movement.
+- **Universal joint** — Joint transmitting rotation between shafts at an angle.
+- **Clutch** — Device that engages or disengages power transmission.
+- **Brake** — Device that slows or stops motion by dissipating or otherwise managing energy.
+- **Flywheel** — Rotating mass that stores kinetic energy and smooths speed fluctuations.
+- **Governor** — Device that regulates speed or another operating variable.
+- **Spring** — Element that stores and releases elastic energy.
+- **Compression spring** — Spring designed to resist compressive displacement.
+- **Extension spring** — Spring designed to resist extension.
+- **Torsion spring** — Spring that produces a torque in response to angular displacement.
+- **Spring rate** — Force per unit displacement or torque per unit angular displacement, depending on the spring.
+- **Damping** — Dissipation of mechanical energy.
+- **Damper** — Component that resists motion and dissipates energy.
+- **Shock absorber** — Device designed to control transient motion and dissipate energy.
+- **Fastener** — Hardware used to join components.
+- **Bolt** — Externally threaded fastener commonly used with a nut or threaded hole.
+- **Screw** — Threaded fastener that engages a mating thread or forms its own thread in certain applications.
+- **Stud** — Rod threaded at one or both ends, used for fastening.
+- **Nut** — Internally threaded fastener.
+- **Washer** — Component used under a fastener to distribute load, protect surfaces, or serve another specified function.
+- **Thread pitch** — Distance between corresponding points on adjacent threads.
+- **Lead** — Axial distance advanced in one revolution of a screw.
+- **Thread engagement** — Length or extent over which mating threads interact.
+- **Preload** — Initial force applied to a joint or component before external service loading.
+- **Bolt proof load** — Specified load associated with a fastener's proof strength.
+- **Joint separation** — Loss of contact between clamped members under loading.
+- **Fatigue failure of fasteners** — Failure from cyclic loading, often influenced by stress concentration and preload.
+- **Interference fit** — Fit in which the mating parts have overlapping dimensional ranges that require force or thermal assistance for assembly.
+- **Clearance fit** — Fit designed to provide space between mating parts.
+- **Transition fit** — Fit whose tolerances can produce either slight clearance or slight interference.
+- **Press fit** — Interference fit assembled by applying force.
+- **Shrink fit** — Interference fit assembled using thermal expansion or contraction.
+- **Tolerance stack-up** — Combined effect of dimensional variations across an assembly.
+- **O-ring** — Elastomeric ring used to seal a joint.
+- **Gasket** — Sealing component placed between mating surfaces.
+- **Mechanical seal** — Device sealing around a rotating shaft using contacting or closely controlled faces.
+- **Lip seal** — Seal using a flexible lip against a shaft or other surface.
+- **Bellows** — Flexible component that accommodates movement while containing or isolating a medium.
+- **Diaphragm** — Flexible membrane used to separate regions or transmit pressure and force.
+- **Valve** — Device that controls fluid flow.
+- **Check valve** — Valve intended to permit flow in one direction and restrict reverse flow.
+- **Relief valve** — Valve that limits pressure by opening under specified conditions.
+- **Pressure regulator** — Device that controls downstream pressure.
+- **Solenoid valve** — Electrically actuated valve using a solenoid.
+- **Ball valve** — Valve that controls flow with a rotating ball.
+- **Gate valve** — Valve using a sliding gate-like element.
+- **Globe valve** — Valve with a movable plug-like element used to regulate or stop flow.
+- **Butterfly valve** — Valve using a rotating disk.
+- **Actuator** — Device that produces mechanical movement from an energy source.
+- **Linear actuator** — Actuator that produces linear motion.
+- **Rotary actuator** — Actuator that produces rotational motion.
+- **Mechanical advantage** — Ratio of output force to input force.
+- **Transmission ratio** — Relationship between input and output motion or speed.
+- **Torque transmission** — Transfer of twisting moment through a mechanical system.
+- **Power transmission** — Transfer of mechanical power between components.
+- **Service factor** — Adjustment factor accounting for specified operating conditions or duty.
+- **Duty cycle** — Pattern of operating and resting periods over time.
+- **Design life** — Intended service duration or number of cycles under specified conditions.
+- **Maintainability** — Ease with which a system can be inspected, repaired, or restored.
+- **Reliability** — Probability that a system performs its required function for a specified time under stated conditions.
+
+## 10\. Manufacturing and machining
+
+- **Manufacturing process** — Method used to produce a component or product.
+- **Casting** — Producing a part by pouring or injecting material into a mold.
+- **Sand casting** — Casting using a sand-based mold.
+- **Die casting** — Forcing molten metal into a reusable die under pressure.
+- **Investment casting** — Casting process using a sacrificial pattern to create a detailed mold.
+- **Centrifugal casting** — Casting in which centrifugal force distributes molten material.
+- **Molding** — Forming material within a mold cavity.
+- **Forging** — Shaping material using compressive forces.
+- **Open-die forging** — Forging between dies that do not fully enclose the workpiece.
+- **Closed-die forging** — Forging within shaped die cavities.
+- **Rolling** — Reducing or shaping material by passing it between rolls.
+- **Extrusion** — Forcing material through a die to create a continuous cross-section.
+- **Drawing** — Pulling material through a die to reduce its cross-section or shape it.
+- **Sheet-metal forming** — Shaping sheet through bending, stretching, drawing, or related processes.
+- **Deep drawing** — Forming sheet metal into a cup-like or hollow shape using a punch and die.
+- **Stamping** — Forming or cutting sheet material using presses and tooling.
+- **Blanking** — Cutting a desired flat shape from sheet stock.
+- **Punching** — Creating a hole by shearing material.
+- **Shearing** — Cutting material through opposing forces.
+- **Bending allowance** — Developed length allocated for the curved portion of a bend.
+- **Springback** — Elastic recovery after forming, which changes the final geometry.
+- **Machining** — Removing material to produce a specified shape.
+- **Subtractive manufacturing** — Manufacturing by removing material from stock.
+- **Additive manufacturing** — Building parts by adding material, commonly layer by layer.
+- **CNC machining** — Computer numerical control of machine tools.
+- **CNC milling** — Milling controlled by numerical instructions.
+- **CNC turning** — Turning controlled by numerical instructions.
+- **Milling** — Machining with a rotating cutting tool.
+- **Turning** — Machining in which the workpiece typically rotates relative to a cutting tool.
+- **Drilling** — Producing a round hole with a drill.
+- **Boring** — Enlarging or correcting an existing hole with a cutting tool.
+- **Reaming** — Finishing a previously formed hole to improve size and surface quality.
+- **Tapping** — Producing internal threads with a tap.
+- **Thread milling** — Producing threads with a milling tool.
+- **Grinding** — Abrasive machining for material removal or surface finishing.
+- **Surface grinding** — Grinding a surface to achieve specified geometry and finish.
+- **Cylindrical grinding** — Grinding external or internal cylindrical surfaces.
+- **Honing** — Abrasive finishing process often used to improve bore geometry and surface texture.
+- **Lapping** — Fine finishing using loose or bonded abrasive action.
+- **Broaching** — Machining using a tool with progressively changing cutting edges.
+- **Sawing** — Cutting material with a toothed blade.
+- **EDM (electrical discharge machining)** — Material removal using controlled electrical discharges.
+- **Wire EDM** — EDM using a moving wire electrode.
+- **Laser cutting** — Cutting with a focused laser beam.
+- **Waterjet cutting** — Cutting using a high-pressure fluid jet, sometimes with abrasive particles.
+- **Plasma cutting** — Cutting electrically conductive materials using a plasma jet.
+- **Ultrasonic machining** — Material removal using ultrasonic vibration and abrasive action.
+- **Tool geometry** — Shape and orientation of cutting-tool features.
+- **Rake angle** — Angle describing the orientation of a cutting tool's rake face.
+- **Relief angle** — Angle providing clearance between the tool flank and the machined surface.
+- **Cutting speed** — Relative surface speed between the cutting edge and workpiece.
+- **Feed rate** — Rate at which the tool advances relative to the workpiece.
+- **Feed per tooth** — Distance advanced per cutting tooth engagement in milling.
+- **Depth of cut** — Thickness or depth of material removed in a pass.
+- **Material removal rate (MRR)** — Volume of material removed per unit time.
+- **Chip formation** — Process by which material separates during cutting.
+- **Continuous chip** — Unbroken or nearly continuous chip formed in cutting.
+- **Discontinuous chip** — Chip separated into segments.
+- **Built-up edge (BUE)** — Workpiece material adhering to a cutting edge during machining.
+- **Tool wear** — Degradation of cutting-tool geometry or surface.
+- **Flank wear** — Wear on the tool flank contacting the machined surface.
+- **Crater wear** — Wear depression on the tool's rake face.
+- **Tool life** — Operating time or cutting distance before a defined tool-wear or failure criterion is reached.
+- **Coolant** — Fluid used to remove heat, lubricate, flush chips, or perform other machining functions.
+- **Cutting fluid** — Fluid applied during machining for cooling and/or lubrication.
+- **Workholding** — Methods used to locate and secure a workpiece.
+- **Fixture** — Device that locates and holds a workpiece.
+- **Jig** — Device that locates a workpiece and guides a tool.
+- **Chuck** — Workholding device that grips a workpiece or tool.
+- **Collet** — Slotted clamping device used to hold a workpiece or tool.
+- **Datum** — Reference feature or target used to establish dimensions or measurement.
+- **Setup** — Configuration of machine, tooling, workholding, and process parameters.
+- **Tool offset** — Stored adjustment accounting for tool position or geometry in CNC machining.
+- **Work offset** — Coordinate offset defining a workpiece reference relative to the machine.
+- **G-code** — Common family of numerical control commands for machine-tool motion and functions.
+- **M-code** — Common family of auxiliary machine-control commands.
+- **Postprocessor** — Software that converts manufacturing instructions into machine-specific code.
+- **CAM (computer-aided manufacturing)** — Software and methods for planning or generating manufacturing operations.
+- **Machining allowance** — Extra material reserved for a later finishing operation.
+- **Burr** — Unwanted raised material left after cutting or machining.
+- **Deburring** — Removing burrs and sharp edges.
+- **Chamfer** — Beveled edge connecting two surfaces.
+- **Fillet** — Rounded transition between surfaces or edges.
+- **Surface finish** — Characteristics of surface texture, including roughness and waviness.
+- **Surface roughness** — Fine-scale irregularity of a surface.
+- **Ra** — Arithmetic average of the absolute surface-profile deviations from the mean line.
+- **Rz** — Surface roughness parameter based on peak-to-valley measurements, with the exact definition depending on the standard.
+- **Waviness** — Larger-scale surface undulations than typical roughness.
+- **Flatness** — Geometric tolerance controlling how much a surface deviates from a perfect plane.
+- **Roundness** — Geometric property controlling deviation from a perfect circle in a cross-section.
+- **Cylindricity** — Geometric tolerance controlling the form of a cylindrical surface.
+- **Runout** — Variation measured relative to a datum axis or reference as a part rotates.
+- **Concentricity** — Relationship between centers or axes; in modern geometric tolerancing, more specific controls are often preferred.
+- **Perpendicularity** — Orientation tolerance requiring a feature to be at 90 degrees to a datum.
+- **Parallelism** — Orientation tolerance controlling parallel alignment relative to a datum.
+- **Position tolerance** — Geometric control on the location of a feature.
+- **Geometric dimensioning and tolerancing (GD&T)** — Standardized system for specifying allowable geometric variation.
+- **Process capability** — Statistical ability of a process to meet specified requirements.
+- **First-pass yield** — Fraction of units that meet requirements without rework.
+- **Scrap rate** — Fraction of production rejected as unusable.
+- **Rework** — Additional processing needed to bring a nonconforming part into compliance.
+- **Lean manufacturing** — Approach focused on improving value and reducing waste.
+- **Six Sigma** — Data-driven approach to reducing process variation and defects.
+- **Kaizen** — Continuous improvement.
+- **5S** — Workplace organization method: sort, set in order, shine, standardize, sustain.
+- **Poka-yoke** — Error-proofing technique.
+- **Kanban** — Visual or signal-based system for controlling workflow and replenishment.
+- **Just-in-time (JIT)** — Production and supply approach intended to provide items when needed.
+- **Overall equipment effectiveness (OEE)** — Composite measure of availability, performance, and quality.
+- **Preventive maintenance** — Planned maintenance intended to reduce failures.
+- **Predictive maintenance** — Maintenance based on condition data or forecasts.
+- **Corrective maintenance** — Maintenance performed to address a detected fault or failure.
+- **Root cause analysis** — Systematic process for identifying underlying causes of a problem.
+- **Failure Mode and Effects Analysis (FMEA)** — Structured method for identifying possible failure modes and evaluating their effects.
+- **Statistical process control (SPC)** — Use of statistical methods to monitor process behavior.
+- **Control chart** — Plot used to distinguish process variation from signals that may indicate special causes.
+
+## 11\. Welding, joining, and fabrication
+
+- **Welding** — Joining materials through coalescence, with or without filler material.
+- **Fusion welding** — Welding that melts the base material at the joint.
+- **Solid-state welding** — Welding without melting the base materials.
+- **Arc welding** — Welding using an electric arc as the heat source.
+- **GMAW (gas metal arc welding)** — Arc welding using a continuously fed consumable wire and shielding gas; commonly called MIG welding.
+- **GTAW (gas tungsten arc welding)** — Arc welding using a nonconsumable tungsten electrode; commonly called TIG welding.
+- **SMAW (shielded metal arc welding)** — Arc welding using a flux-coated consumable electrode; commonly called stick welding.
+- **FCAW (flux-cored arc welding)** — Arc welding using a tubular flux-filled wire.
+- **SAW (submerged arc welding)** — Arc welding performed beneath a layer of granular flux.
+- **Resistance welding** — Joining using electrical resistance heating and applied force.
+- **Spot welding** — Resistance welding at localized points.
+- **Seam welding** — Welding along a continuous seam, often using rotating electrodes.
+- **Laser welding** — Joining using a focused laser heat source.
+- **Electron beam welding** — Welding using a focused electron beam.
+- **Friction welding** — Solid-state joining using friction-generated heat and pressure.
+- **Friction stir welding** — Solid-state joining using a rotating tool to plasticize and mix material along a joint.
+- **Brazing** — Joining using a filler metal that melts above 450°C but below the melting temperature of the base metals.
+- **Soldering** — Joining using a filler metal that melts below 450°C.
+- **Adhesive bonding** — Joining surfaces using an adhesive.
+- **Riveting** — Permanent mechanical joining using rivets.
+- **Press fit** — Joint made by forcing interference-fit components together.
+- **Weld bead** — Deposited material formed by a welding pass.
+- **Weld pool** — Localized molten metal during fusion welding.
+- **Heat-affected zone (HAZ)** — Region whose properties or microstructure change due to welding heat.
+- **Penetration** — Depth to which the weld extends into the joint.
+- **Weld throat** — Effective cross-sectional dimension used to assess weld capacity.
+- **Fillet weld** — Weld used to join surfaces meeting at an angle.
+- **Groove weld** — Weld deposited in a groove between workpieces.
+- **Butt joint** — Joint between components arranged approximately in the same plane.
+- **Lap joint** — Joint in which components overlap.
+- **Weld distortion** — Shape change caused by uneven heating and cooling.
+- **Residual welding stress** — Stress remaining after welding and cooling.
+- **Porosity** — Gas cavities trapped in weld metal.
+- **Slag inclusion** — Nonmetallic material trapped in a weld.
+- **Undercut** — Groove melted into the base material near the weld toe and left unfilled.
+- **Lack of fusion** — Failure of weld metal to fuse adequately with the base material or preceding weld pass.
+- **Lack of penetration** — Insufficient weld penetration into the joint.
+- **Weld qualification** — Demonstration that a welding procedure or welder meets specified requirements.
+- **Nondestructive testing (NDT)** — Evaluation without rendering the component unusable.
+- **Visual testing (VT)** — Inspection by visual examination.
+- **Dye penetrant testing (PT)** — Method for revealing surface-breaking discontinuities using penetrant.
+- **Magnetic particle testing (MT)** — Method for detecting certain discontinuities in ferromagnetic materials.
+- **Ultrasonic testing (UT)** — Inspection using high-frequency sound waves.
+- **Radiographic testing (RT)** — Inspection using X-rays or gamma rays.
+- **Destructive testing** — Testing that damages or destroys the specimen.
+- **Tensile test** — Test measuring a material's response to tension.
+- **Hardness test** — Test assessing resistance to indentation or penetration.
+- **Charpy impact test** — Test measuring energy absorbed during impact fracture under specified conditions.
+
+## 12\. CAD, engineering drawings, and design documentation
+
+- **CAD (computer-aided design)** — Software-assisted creation and modification of engineering geometry.
+- **2D drafting** — Creating two-dimensional technical drawings.
+- **3D modeling** — Representing the geometry of three-dimensional objects.
+- **Parametric modeling** — Modeling using dimensions, parameters, and relationships.
+- **Direct modeling** — Editing geometry without relying primarily on a feature-history dependency tree.
+- **Solid modeling** — Representation of a three-dimensional solid.
+- **Surface modeling** — Representation of an object's surfaces without necessarily defining a solid volume.
+- **Wireframe model** — Representation using points, curves, and edges.
+- **Feature tree** — Ordered history of modeling operations and dependencies.
+- **Sketch constraint** — Rule restricting sketch geometry.
+- **Fully constrained sketch** — Sketch with no remaining unintended degrees of freedom.
+- **Extrude** — Extending a profile along a direction to create geometry.
+- **Revolve** — Creating geometry by rotating a profile about an axis.
+- **Sweep** — Creating geometry by moving a profile along a path.
+- **Loft** — Creating geometry through multiple cross-sections.
+- **Fillet feature** — Adding a rounded transition to model edges or faces.
+- **Chamfer feature** — Adding a beveled transition.
+- **Pattern feature** — Repeating geometry in a defined arrangement.
+- **Mirror feature** — Creating symmetric geometry about a plane or axis.
+- **Boolean operation** — Combining or modifying solids through union, difference, or intersection.
+- **Assembly** — Collection of components arranged to represent a product.
+- **Mate** — CAD relationship restricting relative motion or position between components.
+- **Exploded view** — Assembly representation with components separated for clarity.
+- **Bill of materials (BOM)** — List of parts, quantities, and other procurement or manufacturing information.
+- **Part number** — Identifier assigned to a specific component or configuration.
+- **Revision** — Controlled version of an engineering document or design.
+- **Design intent** — Rules and relationships governing how a model should behave when modified.
+- **Reference geometry** — Points, planes, axes, or curves used to construct or locate features.
+- **Datum plane** — Reference plane used for modeling, measurement, or manufacturing.
+- **Coordinate frame** — Origin and axes defining a reference system.
+- **Geometric constraint** — Relationship such as parallel, perpendicular, tangent, or coincident.
+- **Dimensional constraint** — Numerical restriction on geometry.
+- **Tolerance analysis** — Evaluation of dimensional variations and their effects on fit or function.
+- **GD&T** — System of symbols controlling allowable variation in form, orientation, location, and related geometry.
+- **Engineering drawing** — Technical document defining geometry, dimensions, tolerances, materials, and other requirements.
+- **Orthographic projection** — Representation using views projected onto perpendicular planes.
+- **Isometric view** — Pictorial view displaying three principal directions in a single representation.
+- **Section view** — View showing internal features as if the object were cut.
+- **Detail view** — Enlarged view of a selected area.
+- **Auxiliary view** — View used to show a surface in its true shape or another useful orientation.
+- **Hidden line** — Line representing an edge not directly visible in a view.
+- **Centerline** — Line indicating an axis, center, or symmetry.
+- **Dimension line** — Line indicating the extent and direction of a dimension.
+- **Extension line** — Line connecting a feature to a dimension.
+- **Leader line** — Line connecting an annotation to a feature.
+- **Section hatching** — Pattern identifying material cut in a section view.
+- **Title block** — Drawing area containing identification and administrative information.
+- **General tolerance** — Default tolerance applying where no more specific tolerance is stated.
+- **Fits and tolerances** — System for specifying acceptable dimensional variation between mating parts.
+- **Datum reference frame** — Reference coordinate framework used for geometric tolerancing.
+- **True position** — The theoretically exact location of a feature.
+- **Profile tolerance** — Geometric control of a line or surface relative to a defined profile.
+- **Flatness tolerance** — Control limiting a surface between two parallel planes.
+- **Circularity tolerance** — Control limiting each circular cross-section to a specified zone.
+- **Total runout** — Control of variation across an entire surface as the part rotates relative to a datum axis.
+- **Interference detection** — Identifying overlapping solid volumes in an assembly.
+- **Kinematic simulation** — Simulating mechanism motion and joint behavior.
+- **Rendering** — Generating a visual representation using lighting, materials, and camera settings.
+- **STEP file** — Neutral CAD exchange format widely used to transfer 3D geometry.
+- **IGES file** — Neutral format for exchanging CAD geometry, particularly surfaces and curves.
+- **STL file** — Triangulated surface format commonly used in 3D printing workflows.
+- **DXF file** — Drawing exchange format commonly used for 2D geometry.
+- **Native CAD file** — File format specific to a CAD application.
+- **PDM (product data management)** — Management of engineering files, revisions, and product information.
+- **PLM (product lifecycle management)** — Management of product information and processes throughout its lifecycle.
+- **Digital twin** — Digital representation connected to a physical product or process through data and models.
+- **Design for manufacturability (DFM)** — Designing parts so they can be manufactured effectively.
+- **Design for assembly (DFA)** — Designing products to simplify and improve assembly.
+- **Design for maintenance** — Designing for inspection, servicing, and repair.
+- **Design for additive manufacturing (DfAM)** — Designing specifically for additive manufacturing capabilities and constraints.
+
+## 13\. Finite element analysis and computational engineering
+
+- **CAE (computer-aided engineering)** — Computer-based engineering analysis and simulation.
+- **FEA (finite element analysis)** — Numerical method for approximating solutions to physical field problems.
+- **Finite element method (FEM)** — Discretization-based numerical technique underlying many FEA tools.
+- **Mesh** — Collection of elements and nodes used to discretize a model.
+- **Node** — Point where degrees of freedom and solution variables are defined.
+- **Element** — Discrete computational region connecting nodes.
+- **Element type** — Formulation such as beam, shell, tetrahedral, or hexahedral.
+- **Degree of freedom** — Independent variable associated with a node or system.
+- **Boundary condition** — Prescribed displacement, force, temperature, or other condition.
+- **Constraint** — Restriction on allowable motion or a model variable.
+- **Load case** — Defined set of loads and boundary conditions.
+- **Load combination** — Specified combination of loads for an analysis or design check.
+- **Material model** — Mathematical description of a material's response.
+- **Linear static analysis** — Analysis assuming linear behavior and static loading.
+- **Nonlinear analysis** — Analysis incorporating relevant nonlinear material, geometric, or contact effects.
+- **Geometric nonlinearity** — Nonlinearity associated with changes in geometry or deformation.
+- **Material nonlinearity** — Nonlinear constitutive behavior such as plasticity.
+- **Contact analysis** — Analysis of interacting surfaces.
+- **Modal analysis** — Calculation of natural frequencies and mode shapes.
+- **Harmonic response analysis** — Analysis of response to sinusoidal excitation.
+- **Transient dynamic analysis** — Time-dependent analysis under changing loads.
+- **Buckling analysis** — Evaluation of structural instability.
+- **Thermal analysis** — Calculation of temperature distributions and thermal responses.
+- **Thermomechanical analysis** — Coupled or sequential analysis of thermal and mechanical effects.
+- **Computational fluid dynamics (CFD)** — Numerical simulation of fluid flow and related physical phenomena.
+- **Computational domain** — Region represented in a numerical simulation.
+- **Grid independence** — Demonstration that key results are sufficiently insensitive to further mesh refinement.
+- **Mesh convergence** — Process of checking solution stability as the mesh is refined.
+- **Time-step independence** — Checking whether a transient solution is sufficiently insensitive to time-step refinement.
+- **Solver** — Algorithm that calculates a numerical solution.
+- **Direct solver** — Solver that uses direct algebraic methods to solve a system.
+- **Iterative solver** — Solver that approaches a solution through repeated updates.
+- **Convergence criterion** — Condition used to decide whether a numerical solution has converged.
+- **Residual** — Measure of how closely a computed solution satisfies the governing equations.
+- **Numerical stability** — Resistance of a computational method to uncontrolled growth of numerical errors.
+- **Numerical diffusion** — Artificial smoothing of a solution caused by discretization.
+- **Stress contour** — Visual representation of stress distribution.
+- **Displacement contour** — Visual representation of displacement magnitude or components.
+- **Factor of safety plot** — Display of calculated design margins under specified criteria.
+- **Singularity** — Location where an idealized mathematical model predicts unbounded or mesh-sensitive results.
+- **Verification** — Checking that the equations are solved correctly.
+- **Validation** — Checking whether the model adequately represents physical reality.
+- **Model correlation** — Comparing model predictions with measurements or test results.
+- **Sensitivity study** — Examining how modeling assumptions or inputs influence results.
+- **Reduced-order model** — Simplified model designed to capture important behavior at lower computational cost.
+- **Multiphysics simulation** — Simulation involving interacting physical fields such as fluid flow, heat, and structural deformation.
+
+## 14\. Vibrations, dynamics, and noise
+
+- **Free vibration** — Oscillation following an initial disturbance without sustained external excitation.
+- **Forced vibration** — Oscillation driven by external excitation.
+- **Natural frequency** — Frequency at which a system tends to oscillate in a free-vibration mode.
+- **Fundamental frequency** — Lowest natural frequency of a specified system or mode family.
+- **Mode shape** — Spatial deformation pattern associated with a natural frequency.
+- **Resonance** — Large response when excitation interacts strongly with a system's natural dynamics.
+- **Damping ratio** — Ratio of actual damping to critical damping in a standard second-order model.
+- **Critical damping** — Damping level separating oscillatory from nonoscillatory responses in a simple second-order system.
+- **Underdamped system** — System that oscillates while its response decays.
+- **Overdamped system** — System that returns without oscillation in the standard second-order model.
+- **Critically damped system** — System at the boundary between underdamped and overdamped behavior.
+- **Logarithmic decrement** — Measure of the decay in successive vibration amplitudes.
+- **Amplitude** — Magnitude of an oscillating quantity.
+- **Frequency** — Number of cycles per unit time.
+- **Period** — Time required for one cycle.
+- **Phase** — Relative position within an oscillation cycle.
+- **Phase angle** — Angular measure of phase difference.
+- **Harmonic motion** — Motion represented by sinusoidal functions.
+- **Simple harmonic motion (SHM)** — Ideal oscillation with restoring acceleration proportional to displacement and directed toward equilibrium.
+- **Forced-response function** — Mathematical description of a system's response to a specified input.
+- **Frequency response** — Relationship between sinusoidal input and output as excitation frequency changes.
+- **Transfer function** — Input-output representation of a linear time-invariant system in the Laplace domain.
+- **Frequency response function (FRF)** — Frequency-dependent relationship between measured or modeled input and output.
+- **Fourier transform** — Mathematical operation decomposing a signal into frequency components.
+- **Fast Fourier transform (FFT)** — Efficient algorithm for computing a discrete Fourier transform.
+- **Power spectral density (PSD)** — Distribution of signal power across frequency.
+- **Vibration spectrum** — Representation of vibration amplitude or power against frequency.
+- **RMS vibration** — Root-mean-square measure of vibration magnitude.
+- **Peak-to-peak amplitude** — Difference between maximum and minimum values.
+- **Unbalance** — Uneven mass distribution in a rotating assembly.
+- **Static balancing** — Balancing intended to correct the resultant centrifugal force.
+- **Dynamic balancing** — Balancing that addresses both resultant force and couple effects.
+- **Critical speed** — Rotational speed near a relevant system natural frequency or instability condition.
+- **Whirling** — Lateral motion of a rotating shaft.
+- **Torsional vibration** — Oscillation in angular displacement or torque.
+- **Misalignment** — Deviation from intended alignment of connected rotating components.
+- **Mechanical looseness** — Unwanted movement due to excessive clearance or insufficient fastening.
+- **Gear mesh frequency** — Frequency at which gear teeth engage.
+- **Bearing defect frequency** — Characteristic frequency associated with certain rolling-element bearing defects.
+- **Acoustic noise** — Unwanted or measured sound.
+- **Sound pressure level (SPL)** — Logarithmic measure of sound pressure relative to a reference.
+- **Decibel (dB)** — Logarithmic unit for expressing ratios of power, intensity, or amplitude under defined conventions.
+- **Sound intensity** — Acoustic power transmitted per unit area.
+- **Acoustic resonance** — Strong acoustic response near a resonant frequency.
+- **Modal testing** — Experimental identification of modal properties.
+- **Operational deflection shape (ODS)** — Observed vibration shape under actual operating excitation.
+- **Vibration isolation** — Reducing vibration transmission between a source and a receiver.
+- **Transmissibility** — Ratio of transmitted response amplitude to input amplitude under specified conditions.
+- **Shock loading** — Rapid loading that produces a transient response.
+- **Impact response** — System response to a short-duration impact.
+- **Condition monitoring** — Tracking equipment health through measurements such as vibration, temperature, or oil condition.
+
+## 15\. Control systems and automation
+
+- **Control system** — System that regulates the behavior of a process or machine.
+- **Open-loop control** — Control without measuring the output to correct the input.
+- **Closed-loop control** — Control that uses feedback from the system output.
+- **Feedback** — Information about system output used to influence its behavior.
+- **Setpoint** — Desired value of a controlled variable.
+- **Process variable (PV)** — Measured or estimated value of the variable being controlled.
+- **Manipulated variable (MV)** — Input adjusted by a controller.
+- **Disturbance** — Unwanted or external influence on a system.
+- **Error signal** — Difference between the setpoint and the measured value, using the chosen sign convention.
+- **Controller** — Device or algorithm that determines control actions.
+- **Plant** — Process or physical system being controlled.
+- **Sensor** — Device that measures a physical quantity.
+- **Transducer** — Device that converts one form of energy or a physical quantity into another signal.
+- **Actuator** — Device that converts a command and energy input into physical action.
+- **PID controller** — Controller combining proportional, integral, and derivative actions.
+- **Proportional control** — Control action proportional to current error.
+- **Integral control** — Control action based on accumulated error.
+- **Derivative control** — Control action related to the rate of change of error.
+- **PID tuning** — Selecting controller parameters to achieve desired performance.
+- **Overshoot** — Amount by which a response exceeds its target.
+- **Undershoot** — Amount by which a response falls below its target.
+- **Rise time** — Time for a response to move through a specified fraction of its final change.
+- **Settling time** — Time required for a response to remain within a specified band around its final value.
+- **Steady-state error** — Difference between desired and actual steady-state output.
+- **Stability** — Tendency of a system's response to remain bounded or return toward an operating condition, under the relevant definition.
+- **Robustness** — Ability to maintain acceptable performance despite uncertainty or disturbances.
+- **Gain** — Ratio or sensitivity relating input and output.
+- **Phase margin** — Frequency-domain measure of relative stability for a feedback system.
+- **Gain margin** — Frequency-domain measure of how much loop gain can increase before reaching a stability boundary.
+- **Bode plot** — Frequency-response plots of magnitude and phase against frequency.
+- **Root locus** — Plot showing how closed-loop poles move as a system parameter changes.
+- **Pole** — Value of the complex variable where a transfer function's denominator becomes zero, after applicable cancellations.
+- **Zero** — Value of the complex variable where a transfer function's numerator becomes zero.
+- **State-space model** — Representation using state variables and first-order differential equations.
+- **Transfer function** — Input-output model for a linear time-invariant system under specified conditions.
+- **Linear time-invariant (LTI) system** — System whose behavior is linear and whose parameters do not vary with time.
+- **Discrete-time control** — Control implemented at sampled time instants.
+- **Sampling rate** — Number of samples taken per unit time.
+- **Sampling period** — Time between successive samples.
+- **Quantization** — Mapping a continuous range of values to discrete levels.
+- **PLC (programmable logic controller)** — Industrial controller designed for automation tasks.
+- **Ladder logic** — Graphical PLC programming language resembling relay circuits.
+- **HMI (human-machine interface)** — Interface through which an operator monitors or controls equipment.
+- **SCADA** — Supervisory control and data acquisition system.
+- **Industrial automation** — Use of control, sensing, and machinery to operate industrial processes.
+- **Interlock** — Logic or hardware preventing an action unless specified conditions are met.
+- **Limit switch** — Switch activated by reaching a particular position or condition.
+- **Proximity sensor** — Sensor that detects an object's presence or nearness without necessarily making contact.
+- **Encoder** — Device providing position, speed, or motion-related feedback.
+- **Resolver** — Electromechanical sensor used to determine angular position.
+- **Servo motor** — Motor used in a feedback-controlled motion system.
+- **Stepper motor** — Motor designed to move in discrete angular increments.
+- **VFD (variable-frequency drive)** — Device controlling AC motor speed by varying supply frequency and related electrical parameters.
+- **Soft starter** — Device that limits motor starting current or torque by controlling the starting process.
+- **Solenoid** — Electromagnetic actuator that commonly produces linear movement.
+- **Electropneumatic control** — Pneumatic operation controlled using electrical signals and components.
+- **Electrohydraulic control** — Hydraulic operation regulated by electrical control elements.
+- **Robotics** — Study and application of programmable mechanical systems.
+- **Degrees of freedom in robotics** — Independent joint coordinates describing a robot's configuration.
+- **Forward kinematics** — Calculating end-effector pose from joint coordinates.
+- **Inverse kinematics** — Finding joint coordinates needed to achieve a desired end-effector pose.
+- **Workspace** — Set of positions or poses a robot can reach.
+- **End effector** — Tool or device attached to the end of a robot arm.
+- **Trajectory planning** — Defining a path and its timing for motion.
+- **Path planning** — Determining a feasible route between configurations or locations.
+- **Machine vision** — Using imaging and computational analysis for inspection, identification, or guidance.
+- **Force control** — Controlling applied force rather than position alone.
+- **Compliant mechanism** — Mechanism obtaining motion through elastic deformation of flexible members.
+
+## 16\. Electrical engineering for mechanical engineers
+
+- **Voltage** — Electric potential difference.
+- **Current** — Rate of electric charge flow.
+- **Resistance** — Opposition to electric current.
+- **Ohm's law** — Relationship $V=IR$ for an ohmic element under specified conditions.
+- **Electrical power** — Rate of electrical energy transfer.
+- **Electrical energy** — Energy transferred by an electrical system.
+- **Direct current (DC)** — Current flowing in one direction.
+- **Alternating current (AC)** — Current that varies periodically and reverses direction in common AC systems.
+- **Frequency** — Number of electrical cycles per second.
+- **Phase** — Relative position within a periodic waveform.
+- **Single-phase power** — AC power supplied using a single phase.
+- **Three-phase power** — AC power supplied through three phase-displaced waveforms.
+- **Power factor** — Ratio of real power to apparent power.
+- **Real power** — Average power transferred to perform useful work or dissipate energy.
+- **Reactive power** — AC power oscillating between sources and reactive elements.
+- **Apparent power** — Product of RMS voltage and RMS current in the standard single-phase definition.
+- **Transformer** — Device that transfers electrical energy between circuits through electromagnetic induction.
+- **Circuit breaker** — Protective device that interrupts current under specified fault conditions.
+- **Fuse** — Protective device that opens a circuit when excessive current melts its element.
+- **Relay** — Electrically operated switch.
+- **Contactor** — Switching device designed for frequent operation of power circuits.
+- **Grounding** — Connection to earth or a defined reference ground, depending on the system.
+- **Insulation** — Material or system restricting unwanted electrical current flow.
+- **Short circuit** — Unintended low-impedance connection between points at different potentials.
+- **Overload** — Operating condition exceeding a component's rated load.
+- **Electric motor** — Machine converting electrical energy into mechanical energy.
+- **Generator** — Machine converting mechanical energy into electrical energy.
+- **Electromagnetic induction** — Generation of electromotive force by changing magnetic flux linkage.
+- **Back electromotive force (back EMF)** — Voltage generated by a motor's motion that opposes the applied voltage under the usual motor convention.
+- **Torque constant** — Relationship between motor current and electromagnetic torque under a specified convention.
+- **Motor efficiency** — Mechanical output power divided by electrical input power.
+- **Induction motor** — AC motor in which rotor current is induced by the stator's magnetic field.
+- **Synchronous motor** — AC motor whose steady-state rotor speed matches the rotating magnetic field's synchronous speed.
+- **Servo drive** — Electronic drive that controls a motor, often using feedback.
+- **Power electronics** — Electronic conversion and control of electrical power.
+- **Rectifier** — Device converting AC to DC.
+- **Inverter** — Device converting DC to AC.
+- **DC-DC converter** — Device converting one DC voltage level to another.
+- **Battery management system (BMS)** — System monitoring and controlling battery operation and protection.
+- **Thermistor** — Resistor whose resistance changes substantially with temperature.
+- **RTD (resistance temperature detector)** — Temperature sensor using a calibrated resistance-temperature relationship.
+- **Thermocouple** — Temperature sensor based on thermoelectric voltage.
+- **Strain gauge** — Sensor whose electrical resistance changes with strain.
+- **Load cell** — Transducer that measures force or weight.
+- **LVDT (linear variable differential transformer)** — Electromechanical sensor for measuring linear displacement.
+- **Hall-effect sensor** — Sensor that uses the Hall effect to detect magnetic fields or related quantities.
+- **Accelerometer** — Sensor measuring acceleration.
+- **Gyroscope** — Sensor measuring angular velocity or orientation-related quantities, depending on its design.
+- **Data acquisition (DAQ)** — Collection of sensor signals through electronic measurement systems.
+- **Signal conditioning** — Amplifying, filtering, isolating, or otherwise preparing signals for measurement or control.
+- **Analog signal** — Signal represented by a continuously varying quantity.
+- **Digital signal** — Signal represented using discrete values.
+- **Low-pass filter** — Filter that attenuates frequencies above a selected range.
+- **High-pass filter** — Filter that attenuates frequencies below a selected range.
+- **Bandwidth** — Frequency range over which a system or component meets a specified response criterion.
+- **Electromagnetic compatibility (EMC)** — Ability of equipment to operate without unacceptable electromagnetic interference.
+- **Electromagnetic interference (EMI)** — Unwanted electromagnetic disturbance affecting equipment.
+- **Electrical schematic** — Diagram showing electrical connections and functional relationships.
+
+## 17\. Internal combustion engines and powertrains
+
+- **Internal combustion engine (ICE)** — Engine in which combustion occurs within the working chamber.
+- **Spark-ignition engine (SI)** — Engine that initiates combustion using a spark.
+- **Compression-ignition engine (CI)** — Engine that initiates combustion through compression heating, typically with fuel injection.
+- **Four-stroke engine** — Engine operating through intake, compression, power, and exhaust strokes.
+- **Two-stroke engine** — Engine completing its cycle in two piston strokes.
+- **Cylinder** — Chamber in which a piston moves.
+- **Piston** — Reciprocating component that transmits gas forces to a connecting rod.
+- **Piston ring** — Ring that helps seal the combustion chamber and control oil.
+- **Connecting rod** — Link between piston and crankshaft.
+- **Crankshaft** — Shaft converting reciprocating motion into rotation or vice versa.
+- **Crankcase** — Structure housing or supporting the crankshaft and related components.
+- **Camshaft** — Shaft with cams that control valve or other follower motion.
+- **Intake valve** — Valve controlling entry of fresh charge into the cylinder.
+- **Exhaust valve** — Valve controlling discharge of exhaust gases.
+- **Valve timing** — Timing of valve opening and closing relative to crankshaft position.
+- **Valve overlap** — Period during which intake and exhaust valves are simultaneously open.
+- **Ignition timing** — Timing of spark initiation relative to engine position.
+- **Fuel injection** — Metered delivery of fuel into an intake or combustion region.
+- **Carburetor** — Device that meters and mixes fuel with air in certain engines.
+- **Turbocharger** — Compressor driven by an exhaust-gas turbine.
+- **Supercharger** — Mechanically or electrically driven intake-air compressor.
+- **Intercooler** — Heat exchanger that cools compressed intake air between compression stages or before engine entry.
+- **Exhaust gas recirculation (EGR)** — Returning a controlled portion of exhaust gas to the intake to influence combustion and emissions.
+- **Air-fuel ratio (AFR)** — Ratio of air mass to fuel mass.
+- **Lambda (****$\lambda$****)** — Actual air-fuel ratio divided by the stoichiometric air-fuel ratio.
+- **Volumetric efficiency** — Measure comparing actual inducted air volume or mass with an appropriate theoretical reference.
+- **Compression ratio** — Ratio of maximum cylinder volume to minimum cylinder volume.
+- **Displacement volume** — Volume swept by the piston between top and bottom dead center.
+- **Top dead center (TDC)** — Piston position nearest the cylinder head.
+- **Bottom dead center (BDC)** — Piston position farthest from the cylinder head.
+- **Mean effective pressure (MEP)** — Hypothetical constant pressure that would produce the same net work over a cycle.
+- **Indicated power** — Power developed by gas forces inside the cylinders.
+- **Brake power** — Useful power measured at the engine output shaft.
+- **Friction power** — Difference between indicated power and brake power under consistent measurement conditions.
+- **Brake-specific fuel consumption (BSFC)** — Fuel mass consumed per unit brake power per unit time.
+- **Thermal efficiency** — Useful engine work divided by the fuel energy input, using a defined basis.
+- **Mechanical efficiency** — Brake power divided by indicated power under consistent definitions.
+- **Knock** — Abnormal combustion involving rapid pressure oscillations, with mechanisms depending on engine type.
+- **Pre-ignition** — Ignition of the charge before the intended spark in an SI engine.
+- **Detonation** — Rapid combustion or shock-related process; its exact meaning depends on the context.
+- **Octane rating** — Measure of a gasoline's resistance to knock under standardized test conditions.
+- **Cetane number** — Measure related to ignition quality of diesel fuel.
+- **Diesel particulate filter (DPF)** — Device that traps particulate matter from diesel exhaust.
+- **Catalytic converter** — Exhaust-treatment device that catalyzes chemical reactions to reduce emissions.
+- **Selective catalytic reduction (SCR)** — Emissions-control process that uses a reductant to reduce nitrogen oxides.
+- **Exhaust gas temperature (EGT)** — Temperature of engine exhaust gas at a specified location.
+- **Dynamometer** — Device measuring torque and rotational speed to determine power.
+- **Engine map** — Representation of engine performance over operating conditions such as speed and load.
+- **Transmission** — Mechanism changing speed and torque between a power source and a driven system.
+- **Manual transmission** — Transmission with gear selection controlled by the operator.
+- **Automatic transmission** — Transmission that selects ratios automatically.
+- **Continuously variable transmission (CVT)** — Transmission providing a continuous range of ratios within its operating limits.
+- **Differential** — Gear mechanism allowing connected outputs to rotate at different speeds.
+- **Final drive** — Gear reduction transmitting power to the driven wheels or output.
+- **Driveshaft** — Shaft transmitting rotational power.
+- **Half-shaft** — Shaft connecting a differential or transmission output to a driven wheel.
+- **Clutch engagement** — Process of establishing torque transmission across a clutch.
+- **Gear shifting** — Changing the transmission ratio.
+- **Torque converter** — Fluid coupling device that can multiply torque under certain conditions.
+- **Regenerative braking** — Recovering kinetic energy and converting it into stored or reusable energy.
+- **Hybrid powertrain** — Powertrain combining multiple propulsion energy sources, commonly an engine and electric motor.
+- **Electric vehicle (EV)** — Vehicle propelled partly or entirely by electric motors.
+- **Battery electric vehicle (BEV)** — Vehicle propelled by electricity stored in a rechargeable battery.
+- **Hybrid electric vehicle (HEV)** — Vehicle combining an internal combustion engine and electric propulsion.
+- **Plug-in hybrid electric vehicle (PHEV)** — Hybrid vehicle with an externally rechargeable traction battery.
+
+## 18\. HVAC, refrigeration, and building systems
+
+- **HVAC** — Heating, ventilation, and air conditioning.
+- **Air handling unit (AHU)** — Equipment that conditions and circulates air.
+- **Heating coil** — Heat exchanger used to warm air.
+- **Cooling coil** — Heat exchanger used to cool air.
+- **Evaporator** — Refrigeration component where refrigerant absorbs heat while evaporating.
+- **Condenser** — Component where refrigerant rejects heat while condensing.
+- **Compressor** — Device that increases refrigerant pressure.
+- **Expansion valve** — Device that regulates refrigerant flow and reduces pressure.
+- **Refrigerant** — Working fluid used in refrigeration or heat-pump systems.
+- **Refrigeration capacity** — Rate of heat removal.
+- **Cooling load** — Rate of heat removal needed to maintain specified conditions.
+- **Heating load** — Rate of heat supply needed to maintain specified conditions.
+- **Sensible cooling** — Cooling that reduces temperature without removing moisture through condensation.
+- **Latent cooling** — Cooling associated with moisture removal or a phase change.
+- **Dehumidification** — Removal of water vapor from air.
+- **Humidification** — Addition of water vapor to air.
+- **Air changes per hour (ACH)** — Number of room air-volume equivalents supplied or exchanged per hour under a defined convention.
+- **Static pressure** — Pressure component associated with the fluid's thermodynamic or mechanical state rather than its bulk velocity.
+- **Total pressure** — Pressure representing static plus dynamic pressure for the applicable flow model.
+- **Ductwork** — Network of passages distributing air.
+- **Damper** — Device controlling airflow through a duct.
+- **Diffuser** — Device distributing supply air into a space or reducing fluid velocity while recovering pressure, depending on context.
+- **VAV (variable air volume)** — HVAC approach that varies supply airflow to meet demand.
+- **Chiller** — Machine that removes heat from a circulating liquid.
+- **Cooling tower** — Device that rejects heat, commonly through evaporative cooling.
+- **Boiler** — Equipment that heats water or produces steam.
+- **Furnace** — Equipment that generates heat, commonly through combustion or electrical resistance.
+- **Thermostat** — Device controlling temperature around a setpoint.
+- **Duct static pressure** — Static pressure measured in a duct relative to a reference.
+- **Air balancing** — Adjusting a distribution system to achieve specified airflow rates.
+- **Hydronic system** — Heating or cooling system that circulates water or another liquid.
+- **Thermal comfort** — Perceived comfort influenced by temperature, humidity, air speed, clothing, and activity.
+- **Coefficient of performance (COP)** — Heating or cooling delivered per unit of energy input.
+- **Seasonal energy efficiency ratio (SEER)** — Seasonal cooling-efficiency rating used in specified equipment-rating systems.
+- **Energy efficiency ratio (EER)** — Cooling capacity divided by electrical input under specified test conditions.
+- **Variable refrigerant flow (VRF)** — Refrigeration-based HVAC system that varies refrigerant delivery to multiple indoor units.
+
+## 19\. Pumps, turbines, and rotating equipment
+
+- **Rotating equipment** — Machinery whose principal operating components rotate.
+- **Prime mover** — Device supplying mechanical power, such as an engine, motor, or turbine.
+- **Pump impeller** — Rotating component that adds energy to a fluid.
+- **Pump casing** — Housing that contains and guides the pumped fluid.
+- **Suction line** — Pipe carrying fluid to a pump inlet.
+- **Discharge line** — Pipe carrying fluid away from a pump outlet.
+- **Suction lift** — Vertical distance a pump must draw liquid from below its reference level.
+- **Centrifugal force** — Apparent outward force in a rotating reference frame.
+- **Centripetal acceleration** — Inward acceleration required for circular motion.
+- **Radial load** — Load perpendicular to a shaft axis.
+- **Axial load** — Load parallel to a shaft axis.
+- **Rotor** — Rotating assembly of a machine.
+- **Stator** — Stationary component surrounding or interacting with a rotor.
+- **Shaft alignment** — Positioning coupled shafts within acceptable offset and angular limits.
+- **Soft foot** — Condition in which a machine foot does not seat properly on its mounting surface.
+- **Baseplate** — Structural platform supporting equipment.
+- **Grouting** — Filling the gap between a baseplate and foundation with an appropriate material.
+- **Mechanical runout** — Measured geometric variation as a component rotates.
+- **Shaft seal** — Component preventing unwanted leakage along a shaft.
+- **Seal flush** — Fluid supplied to a seal chamber for cooling, lubrication, or contamination control.
+- **Bearing housing** — Structure supporting and enclosing a bearing.
+- **Lubrication regime** — Condition describing how lubricant film and surface contact carry a load.
+- **Critical vibration** — Vibration level or frequency condition requiring assessment against defined limits.
+- **Predictive maintenance** — Maintenance scheduled using measured condition or forecast failure risk.
+- **Condition-based maintenance** — Maintenance triggered by equipment condition.
+- **Mean time between failures (MTBF)** — Average operating time between failures for a repairable system under a defined model.
+- **Mean time to repair (MTTR)** — Average time required to restore a failed system, based on the defined measurement scope.
+- **Availability** — Fraction of time a system is capable of performing its required function under a defined model.
+- **Failure mode** — Specific way in which a component or system fails.
+- **Root cause** — Underlying cause of a failure or problem.
+- **Equipment datasheet** — Document listing equipment specifications and operating requirements.
+- **Nameplate rating** — Manufacturer-stated rating or identification information on equipment.
+- **Operating envelope** — Range of conditions within which equipment is intended to operate.
+- **Pump shutoff head** — Pump head at zero flow under specified operating conditions.
+- **Best efficiency point (BEP)** — Flow condition where a pump achieves its highest efficiency for a given configuration and speed.
+- **Minimum continuous stable flow** — Minimum flow at which a pump can operate continuously within specified stability limits.
+- **Cavitation margin** — Available suction-pressure margin above the required threshold, as defined for the application.
+- **Surge** — Potentially damaging pressure or flow oscillation in fluid systems.
+- **Compressor surge** — Unstable compressor operation involving flow and pressure oscillations.
+- **Compressor choke** — Flow limitation when a local flow region reaches its applicable sonic limit.
+- **Gas turbine** — Machine extracting work from hot, expanding gas.
+- **Steam turbine** — Machine extracting work from expanding steam.
+- **Turbine blade** — Airfoil-like component that interacts with a working fluid.
+- **Blade loading** — Aerodynamic or hydrodynamic forces acting on a blade.
+- **Efficiency map** — Chart showing equipment efficiency over operating conditions.
+- **Part-load operation** — Operation below rated or full-load conditions.
+
+## 20\. Materials handling, industrial engineering, and production
+
+- **Conveyor** — System for moving materials between locations.
+- **Belt conveyor** — Conveyor using a continuous moving belt.
+- **Roller conveyor** — Conveyor using rotating rollers.
+- **Pneumatic conveying** — Transporting bulk material through pipes using a gas stream.
+- **Bulk material handling** — Moving, storing, and processing loose materials.
+- **Hopper** — Container that directs bulk material toward an outlet.
+- **Chute** — Inclined passage used to guide material.
+- **Feeder** — Device controlling the rate of material delivery.
+- **Hoist** — Device used to lift or lower a load.
+- **Crane** — Machine designed to lift and move loads.
+- **Winch** — Device that winds a rope or cable to pull or lift.
+- **Rigging** — Equipment and methods used to lift or secure loads.
+- **Working load limit (WLL)** — Maximum permitted load specified for equipment under stated conditions.
+- **Rated capacity** — Maximum load or performance specified by the manufacturer for defined conditions.
+- **Center of gravity** — Point at which the resultant gravitational force can be considered to act.
+- **Load path** — Route through which forces are transferred to supporting structures.
+- **Ergonomics** — Designing systems to suit human capabilities and limitations.
+- **Cycle time** — Time required to complete one defined production cycle.
+- **Takt time** — Available production time divided by customer demand for the same period.
+- **Lead time** — Elapsed time between defined start and completion events.
+- **Throughput** — Rate at which a process produces output.
+- **Bottleneck** — Resource or process step limiting overall production capacity.
+- **Work in process (WIP)** — Items currently undergoing production.
+- **Value stream** — Sequence of activities required to deliver a product or service.
+- **Value stream mapping** — Visual analysis of material and information flows.
+- **Capacity planning** — Estimating the resources required to meet demand.
+- **Line balancing** — Distributing work across stations to improve flow.
+- **Standard operating procedure (SOP)** — Documented method for performing a task.
+- **Work instruction** — Specific directions for carrying out an operation.
+- **Traceability** — Ability to track a part, material, or process history.
+- **Lot number** — Identifier linking items to a production or material batch.
+- **First article inspection (FAI)** — Detailed inspection of an initial part or production sample against requirements.
+- **Incoming inspection** — Checking purchased materials or components upon receipt.
+- **Nonconformance** — Failure to meet a specified requirement.
+- **Corrective action** — Action to eliminate the cause of a detected problem.
+- **Preventive action** — Action intended to prevent a potential problem; terminology varies across quality-management frameworks.
+- **Continuous improvement** — Ongoing effort to improve processes and outcomes.
+
+## 21\. Engineering safety, standards, and regulations
+
+- **Occupational safety** — Protection of workers from hazards.
+- **Hazard** — Source or condition with the potential to cause harm.
+- **Risk** — Combination of the likelihood of harm and its severity, using a defined assessment method.
+- **Risk assessment** — Systematic identification and evaluation of risks.
+- **Mitigation** — Measures that reduce risk or consequences.
+- **Hierarchy of controls** — Framework prioritizing elimination, substitution, engineering controls, administrative controls, and personal protective equipment.
+- **Personal protective equipment (PPE)** — Equipment worn to reduce exposure to hazards.
+- **Lockout/tagout (LOTO)** — Procedures for isolating hazardous energy and preventing unexpected startup.
+- **Machine guarding** — Physical safeguards preventing access to dangerous machine areas.
+- **Emergency stop (E-stop)** — Control used to initiate an emergency stop function.
+- **Interlock** — Safety or control feature preventing specified unsafe operations.
+- **Pressure relief device** — Device that limits pressure when specified conditions are reached.
+- **Design pressure** — Pressure specified as a basis for equipment design.
+- **Maximum allowable working pressure (MAWP)** — Maximum pressure permitted at a designated temperature under the applicable code and equipment basis.
+- **Proof test** — Test demonstrating that a component or system meets specified requirements.
+- **Hydrostatic test** — Pressure test using liquid.
+- **Pneumatic test** — Pressure test using gas; stored-energy hazards require particular care.
+- **Fatigue life** — Expected number of cycles before a defined fatigue failure criterion is met.
+- **Fracture risk** — Risk associated with crack initiation, growth, or sudden fracture.
+- **Pressure vessel** — Container designed to hold fluids at a specified pressure.
+- **Boiler code** — Applicable standard or code governing boiler design, construction, inspection, or operation.
+- **ASME** — American Society of Mechanical Engineers, publisher of widely used engineering codes and standards.
+- **ASTM** — Organization publishing technical standards for materials, testing, and related practices.
+- **ISO** — International Organization for Standardization.
+- **ANSI** — American National Standards Institute.
+- **API** — American Petroleum Institute, publisher of standards used in petroleum and related industries.
+- **SAE** — Society of Automotive Engineers, now known as SAE International.
+- **NFPA** — National Fire Protection Association.
+- **OSHA** — U.S. Occupational Safety and Health Administration.
+- **UL** — Organization known for safety standards and product certification.
+- **CE marking** — Marking indicating conformity with applicable European Union requirements when required.
+- **Code compliance** — Meeting the requirements of applicable codes and regulations.
+- **Design review** — Structured examination of a design against requirements and risks.
+- **Engineering change order (ECO)** — Controlled authorization for a design or documentation change.
+- **Management of change (MOC)** — Formal process for evaluating and controlling changes that may affect safety or operation.
+- **Permit to work** — Formal authorization and control process for specified hazardous tasks.
+- **Confined space** — Space meeting the applicable definition and presenting particular access, atmosphere, or other hazards.
+- **Hot work** — Work involving ignition sources or high temperatures, such as welding and cutting.
+- **Pressure boundary** — Components containing pressurized fluid.
+- **Safety factor** — Margin between specified capacity and applied demand.
+- **Fail-safe design** — Design intended to move toward a safer condition when specified failures occur.
+- **Redundancy** — Providing additional components or paths to maintain function after certain failures.
+- **Functional safety** — Safety achieved through systems that perform specified safety functions.
+
+## 22\. Renewable energy and emerging technologies
+
+- **Renewable energy** — Energy derived from sources replenished naturally on relevant timescales.
+- **Wind turbine** — Machine converting wind energy into mechanical and often electrical power.
+- **Rotor swept area** — Area swept by the blades of a wind turbine.
+- **Tip-speed ratio** — Blade-tip speed divided by wind speed.
+- **Betz limit** — Theoretical upper limit of power extraction from an idealized unconfined wind stream by a rotor.
+- **Photovoltaic (PV) system** — System converting sunlight directly into electricity.
+- **Solar thermal system** — System collecting solar energy as heat.
+- **Concentrated solar power (CSP)** — Technology concentrating sunlight to generate thermal energy.
+- **Geothermal energy** — Energy obtained from the Earth's internal heat.
+- **Hydropower** — Energy generated using moving or falling water.
+- **Energy storage** — Capturing energy for use at a later time.
+- **Thermal energy storage** — Storing energy as sensible heat, latent heat, or other thermal states.
+- **Battery energy storage system (BESS)** — System storing electrical energy in batteries.
+- **Hydrogen fuel cell** — Device converting chemical energy from a fuel and oxidant into electrical energy through electrochemical reactions.
+- **Electrolyzer** — Device using electricity to drive an electrochemical reaction such as water splitting.
+- **Carbon capture** — Separating carbon dioxide from a gas stream or atmosphere.
+- **Waste heat recovery** — Capturing heat that would otherwise be rejected.
+- **Organic Rankine cycle (ORC)** — Rankine-type cycle using an organic working fluid, often for lower-temperature heat sources.
+- **Supercritical fluid** — Substance above its critical temperature and pressure.
+- **Additive manufacturing** — Producing components by adding material according to a digital model.
+- **Topology optimization** — Computationally determining material distribution within a design domain under defined objectives and constraints.
+- **Generative design** — Computational exploration of candidate designs from goals and constraints.
+- **Lattice structure** — Repeating network of struts or surfaces used to tailor stiffness, mass, or other properties.
+- **Functionally graded material (FGM)** — Material whose composition or structure varies spatially.
+- **Shape optimization** — Optimization of geometric boundaries or dimensions.
+- **Bio-inspired design** — Engineering design drawing on structures or processes found in biological systems.
+- **Soft robotics** — Robotics using compliant materials and deformable structures.
+- **Collaborative robot (cobot)** — Robot designed for specified forms of interaction with humans.
+- **Digital manufacturing** — Use of digital models, data, and connected systems throughout manufacturing.
+- **Industry 4.0** — Framework emphasizing connected, data-driven, and automated industrial systems.
+- **Internet of Things (IoT)** — Network of connected devices that collect or exchange data.
+- **Edge computing** — Processing data close to where it is generated.
+- **Machine learning** — Methods that learn patterns from data for prediction or decision support.
+- **Predictive modeling** — Using models to estimate future or unobserved behavior.
+- **Surrogate model** — Computationally inexpensive approximation of a more costly model.
+- **Physics-informed machine learning** — Machine-learning methods that incorporate physical equations or constraints.
+- **Cyber-physical system** — System integrating physical processes with computation, sensing, and control.
+
+## 23\. Project engineering and professional practice
+
+- **Engineering requirements** — Explicit statements of what a design or system must accomplish.
+- **Design specification** — Document defining required characteristics and performance.
+- **Functional requirement** — Requirement describing what a system must do.
+- **Performance requirement** — Requirement defining measurable operating behavior.
+- **Constraint** — Limit that a design must satisfy.
+- **Design trade-off** — Compromise between competing objectives.
+- **Feasibility study** — Assessment of whether a proposed solution is practical.
+- **Concept development** — Generation and evaluation of possible design approaches.
+- **Preliminary design** — Early design definition used to evaluate major decisions.
+- **Detailed design** — Design phase specifying components, dimensions, materials, and implementation details.
+- **Prototype** — Early version built to evaluate concepts or performance.
+- **Proof of concept (PoC)** — Demonstration that a key idea or mechanism is feasible.
+- **Minimum viable product (MVP)** — Basic product version designed to test core value or functionality.
+- **Verification and validation (V&V)** — Establishing that requirements are met and the solution suits its intended use.
+- **Acceptance testing** — Testing against predefined acceptance criteria.
+- **Commissioning** — Activities that verify and prepare installed equipment or systems for operation.
+- **Factory acceptance test (FAT)** — Testing at the supplier's facility before delivery or acceptance.
+- **Site acceptance test (SAT)** — Testing at the installation site.
+- **Engineering change management** — Controlled handling of design modifications.
+- **Configuration management** — Maintaining consistency between approved product definitions and their implementations.
+- **Systems engineering** — Coordinating requirements, architecture, interfaces, and verification across a system.
+- **Interface** — Boundary or connection through which components or systems interact.
+- **Interface control document (ICD)** — Document defining interface characteristics and requirements.
+- **Project scope** — Defined work and deliverables.
+- **Work breakdown structure (WBS)** — Hierarchical decomposition of project work.
+- **Critical path** — Sequence of dependent activities determining the earliest project completion under a given schedule.
+- **Gantt chart** — Timeline chart displaying tasks and durations.
+- **Risk register** — Document tracking project risks and planned responses.
+- **Procurement** — Process of acquiring equipment, materials, and services.
+- **Technical bid evaluation** — Comparison of proposals against technical requirements.
+- **Request for quotation (RFQ)** — Request for pricing and related commercial information for specified goods or services.
+- **Request for proposal (RFP)** — Request for proposed solutions and commercial terms.
+- **Value engineering** — Systematic effort to improve value while maintaining required functions.
+- **Life-cycle cost (LCC)** — Total cost over a defined life cycle, including relevant acquisition, operation, maintenance, and disposal costs.
+- **Capital expenditure (CAPEX)** — Spending on assets and investments.
+- **Operating expenditure (OPEX)** — Costs associated with ongoing operations.
+- **Return on investment (ROI)** — Financial return relative to investment under a defined calculation.
+- **Total cost of ownership (TCO)** — Combined cost of owning and operating an asset over a specified period.
+- **Technical debt** — Future cost or rework created by shortcuts or compromises in technical decisions.
+- **Lessons learned** — Documented insights intended to improve future work.
+- **Technical report** — Document communicating methods, evidence, findings, and conclusions.
+- **Engineering logbook** — Record of calculations, experiments, observations, and design decisions.
+- **Peer review** — Evaluation of technical work by other qualified people.
+- **Ethics in engineering** — Professional principles governing honesty, competence, public safety, and responsible practice.
+- **Intellectual property (IP)** — Legally protected creations, inventions, and related rights.
+- **Patent** — Legal right protecting a qualifying invention under applicable law.
+- **Confidentiality** — Obligation to protect information from unauthorized disclosure.
+- **Technical communication** — Clear communication of engineering information through writing, drawings, data, and presentations.
+
+---
+
+## 24\. Essential engineering equations and quantities to recognize
+
+These are not just vocabulary terms. They are relationships you will repeatedly use throughout mechanical engineering.
+
+| Concept | Relationship | Typical use |
+| --- | --- | --- |
+| Newton's second law | $F=ma$ | Motion and force analysis |
+| Moment of a force | $M=Fd_\perp$ | Rotation and equilibrium |
+| Translational power | $P=Fv$ | Linear motion |
+| Rotational power | $P=T\omega$ | Motors, shafts, turbines |
+| Normal stress | $\sigma=F/A$ | Axial loading |
+| Normal strain | $\epsilon=\Delta L/L_0$ | Deformation |
+| Hooke's law | $\sigma=E\epsilon$ | Linear elastic behavior |
+| Axial elongation | $\Delta L=FL/(AE)$ | Uniform prismatic bar, linear elasticity |
+| Density | $\rho=m/V$ | Materials and fluids |
+| Pressure | $p=F/A$ | Fluids and contact loading |
+| Hydrostatic pressure change | $\Delta p=\rho g\Delta h$ | Liquid columns |
+| Flow continuity | $\dot m=\rho AV$ | Flow calculations |
+| Reynolds number | $Re=\rho VD/\mu$ | Flow-regime assessment in pipes |
+| Ideal gas law | $PV=mRT$ | Gas thermodynamics |
+| First-law energy balance | $\Delta E=Q-W$ | Closed-system energy analysis |
+| Fourier's law | $\dot Q=-kA\,dT/dx$ | Conduction |
+| Newton's cooling law | $\dot Q=hA(T_s-T_\infty)$ | Convection |
+| Thermal resistance | $R_{\rm th}=\Delta T/\dot Q$ | Heat-transfer networks |
+| Spring force | $F=kx$ | Linear spring behavior |
+| Rotational inertia | $T=I\alpha$ | Rotational dynamics |
+| Gear speed ratio | $n_1/n_2=Z_2/Z_1$ | Simple external gear pairs |
+| Electrical power, DC | $P=VI$ | Electrical systems |
+| Motor efficiency | $\eta=P_{\rm out}/P_{\rm in}$ | Energy conversion |
+| Factor of safety | $FoS=\text{capacity}/\text{demand}$ | Design assessment |
+
+_Symbols and sign conventions vary by discipline. In particular, the first-law expression above uses__$Q$__positive into the system and__$W$__positive out of the system._
+
+## 25\. Common engineering abbreviations to memorize
+
+| Abbreviation | Meaning |
+| --- | --- |
+| CAD | Computer-aided design |
+| CAM | Computer-aided manufacturing |
+| CAE | Computer-aided engineering |
+| CNC | Computer numerical control |
+| FEA / FEM | Finite element analysis / method |
+| CFD | Computational fluid dynamics |
+| GD&T | Geometric dimensioning and tolerancing |
+| BOM | Bill of materials |
+| DFM | Design for manufacturability |
+| DFA | Design for assembly |
+| FMEA | Failure Mode and Effects Analysis |
+| SPC | Statistical process control |
+| QC / QA | Quality control / quality assurance |
+| NDT / NDE | Nondestructive testing / evaluation |
+| PPE | Personal protective equipment |
+| SOP | Standard operating procedure |
+| PLC | Programmable logic controller |
+| HMI | Human-machine interface |
+| SCADA | Supervisory control and data acquisition |
+| PID | Proportional-integral-derivative |
+| VFD | Variable-frequency drive |
+| HVAC | Heating, ventilation, and air conditioning |
+| COP | Coefficient of performance |
+| LMTD | Log mean temperature difference |
+| UTS | Ultimate tensile strength |
+| FoS | Factor of safety |
+| MRR | Material removal rate |
+| HAZ | Heat-affected zone |
+| MTBF | Mean time between failures |
+| MTTR | Mean time to repair |
+| OEE | Overall equipment effectiveness |
+| CAPEX | Capital expenditure |
+| OPEX | Operating expenditure |
+| ROI | Return on investment |
+| WIP | Work in process |
+| RFQ | Request for quotation |
+| RFP | Request for proposal |
+| FAT / SAT | Factory / site acceptance test |
+| LOTO | Lockout/tagout |
+| MAWP | Maximum allowable working pressure |
+| BEP | Best efficiency point |
+| NPSH | Net positive suction head |
+| AFR | Air-fuel ratio |
+| BSFC | Brake-specific fuel consumption |
+| EGR | Exhaust gas recirculation |
+| DPF | Diesel particulate filter |
+| EV / BEV / HEV | Electric / battery-electric / hybrid-electric vehicle |
+| IoT | Internet of Things |
+| PLM / PDM | Product lifecycle / product data management |
+| WLL | Working load limit |
+| ECR / ECO | Engineering change request / order |
+
+---
+
+## 26\. What mechanical engineering students should prioritize
+
+A list this large is best used as a reference rather than a memorization assignment. Here's a practical order for learning it.
+
+\<box border radius="xl" padding={4} gap={3}\> \<row align=start gap={3}\> \<box background="surface-secondary" radius="lg" size="44px" align=center justify=center\> \<icon name="calculator" size="xl"/\> \</box\> \<box flex="1" gap={1}\> \<title size="md"\>Level 1 — Master first\</title\> \<text color="secondary" size="sm"\>Foundational courses and problem solving\</text\> Force, torque, equilibrium, free-body diagrams, stress, strain, Hooke's law, energy, power, heat, pressure, density, continuity, Bernoulli's equation, thermodynamic laws, units, and dimensional analysis. \</box\> \</row\> \<divider color="subtle"/\> \<row align=start gap={3}\> \<box background="surface-secondary" radius="lg" size="44px" align=center justify=center\> \<icon name="settings" size="xl"/\> \</box\> \<box flex="1" gap={1}\> \<title size="md"\>Level 2 — Design and analysis\</title\> \<text color="secondary" size="sm"\>Intermediate coursework and engineering projects\</text\> Fatigue, buckling, factor of safety, material properties, bearings, gears, shafts, tolerances, heat exchangers, fluid losses, vibrations, and machine elements. \</box\> \</row\> \<divider color="subtle"/\> \<row align=start gap={3}\> \<box background="surface-secondary" radius="lg" size="44px" align=center justify=center\> \<icon name="wrench" size="xl"/\> \</box\> \<box flex="1" gap={1}\> \<title size="md"\>Level 3 — Hands-on engineering\</title\> \<text color="secondary" size="sm"\>Internships, laboratories, and manufacturing\</text\> CAD assemblies, engineering drawings, GD&T, CNC machining, welding, metrology, instrumentation, PLCs, preventive maintenance, troubleshooting, and safety. \</box\> \</row\> \<divider color="subtle"/\> \<row align=start gap={3}\> \<box background="surface-secondary" radius="lg" size="44px" align=center justify=center\> \<icon name="brain-circuit" size="xl"/\> \</box\> \<box flex="1" gap={1}\> \<title size="md"\>Level 4 — Specialize\</title\> \<text color="secondary" size="sm"\>Advanced courses and career preparation\</text\> FEA, CFD, control-system stability, fracture mechanics, advanced heat transfer, robotics, turbomachinery, optimization, and digital twins. \</box\> \</row\> \</box\>
+
+## 27\. How to study these terms effectively
+
+For each term, try to learn four things:
+
+1. **Definition:** What does it mean?
+2. **Equation:** Is there a governing equation, and what are its units?
+3. **Application:** Where would an engineer encounter it?
+4. **Example:** Can you solve a problem or identify it in a real machine?
+
+For instance, learning _torque_ means knowing that it measures the turning effect of a force, recognizing $T=Fr_\perp$ for a force applied at a perpendicular lever arm, understanding its units of N·m, and being able to calculate the torque on a wrench or motor shaft.
+
+The strongest mechanical engineering students connect terminology to physical intuition, mathematical models, drawings, experiments, and real equipment—not just definitions.
