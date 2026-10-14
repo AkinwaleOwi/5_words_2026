@@ -1,12 +1,17 @@
+Codes:
+-= absorbed like cell
 
-0. wix - category = categories have their own pages + only 10 allowed on blog posts but other type of post unlimited.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-1.wix - tag = In the Wix Blog, a tag is a text label used to sort, filter, and categorize your blog posts. Unlike categories (which group broader topics), tags act as sub-labels or keywords.
+
+-0. wix - category = categories have their own pages + only 10 allowed on blog posts but other type of post unlimited.
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-1.wix - tag = In the Wix Blog, a tag is a text label used to sort, filter, and categorize your blog posts. Unlike categories (which group broader topics), tags act as sub-labels or keywords.
 • Example: On a food blog, the category might be Recipes, while the tags could be vegan, gluten-free, or dessert.
 • Limits: You can add up to 30 tags per blog post, and each tag has a 50-character limit.
-=====
+========
 
-1a. the difference.
+-1a. the difference.
 
 In Wix, categories are broad, primary groupings used to structure your core content or products, while tags are granular, specific labels used for detailed filtering and cross-referencing.
 
@@ -27,12 +32,14 @@ Key Differences in Wix
 
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+==============================================================
 -Prompt:
 --Plan work our way to the bottom number and date the ones we didnt know, delete the ones we already did
-
+===============================================================
 Core Web Development Terms
 
-HTML — The structure and content of a webpage.
+-HTML — The structure and content of a webpage.
 CSS — Controls styling, layout, colors, spacing, typography, etc.
 JavaScript — Adds behavior and interactivity to websites.
 DOM (Document Object Model) — The browser’s representation of a webpage that JavaScript can interact with.
