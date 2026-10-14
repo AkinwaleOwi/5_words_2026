@@ -1,6 +1,20 @@
 
 prompt
 
+How to study these terms effectively
+For each term, try to learn four things:
+
+Definition: What does it mean?
+Equation: Is there a governing equation, and what are its units?
+Application: Where would an engineer encounter it?
+
+Example: Can you solve a problem or identify it in a real machine?
+For instance, learning torque means knowing that it measures the turning effect of a force, recognizing 
+
+T=Fr⊥ for a force applied at a perpendicular lever arm, understanding its units of N·m, and being able to calculate the torque on a wrench or motor shaft.
+
+The strongest mechanical engineering students connect terminology to physical intuition, mathematical models, drawings, experiments, and real equipment—not just definitions.
+
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 # The Ultimate Mechanical Engineering Terminology List
 
