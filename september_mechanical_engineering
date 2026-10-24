@@ -30,19 +30,21 @@ The goal isn't just to memorize definitions. You should eventually be able to **
 - Kinematics — Description of motion without considering its causes.
 - Kinetics — Study of motion in relation to forces and mass.
 - Force — A push or pull that can change an object's motion.
-- **Moment** — Turning effect of a force about a point or axis.
-- **Torque** — Twisting moment, commonly associated with shafts and motors.
-- **Couple** — Two equal and opposite forces separated by a distance that produce a pure moment.
-- **Equilibrium** — State in which the net force and net moment are zero.
-- **Free-body diagram (FBD)** — Diagram showing external forces and moments acting on an isolated body.
-- **Load** — Force, moment, pressure, or other demand applied to a component.
-- **Reaction force** — Force exerted by a support or constraint.
-- **Displacement** — Change in position.
-- **Distance** — Total length traveled along a path.
-- **Velocity** — Rate of change of position.
-- **Speed** — Magnitude of velocity.
-- **Acceleration** — Rate of change of velocity.
-- **Angular displacement** — Change in rotational position.
+- Moment — Turning effect of a force about a point or axis.
+- Torque — Twisting moment, commonly associated with shafts and motors.
+- Couple — Two equal and opposite forces separated by a distance that produce a pure moment.
+- Equilibrium — State in which the net force and net moment are zero.
+- Free-body diagram (FBD) — Diagram showing external forces and moments acting on an isolated body.
+- Load — Force, moment, pressure, or other demand applied to a component.
+- Reaction force — Force exerted by a support or constraint.
+- Displacement — Change in position.
+- Distance — Total length traveled along a path.
+- Velocity — Rate of change of position.
+- Speed — Magnitude of velocity.
+- Acceleration — Rate of change of velocity.
+- Angular displacement — Change in rotational position.
+
+
 - **Angular velocity** — Rate of change of angular position.
 - **Angular acceleration** — Rate of change of angular velocity.
 - **Mass** — Measure of inertia.
