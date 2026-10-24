@@ -1,4 +1,4 @@
-
+no ** = done
 prompt:
 
 How to study these terms effectively
@@ -24,12 +24,12 @@ The goal isn't just to memorize definitions. You should eventually be able to **
 
 ## 1\. Core engineering fundamentals
 
-- **Mechanics** — Study of forces and their effects on bodies.
-- **Statics** — Study of bodies in equilibrium.
-- **Dynamics** — Study of bodies in motion.
-- **Kinematics** — Description of motion without considering its causes.
-- **Kinetics** — Study of motion in relation to forces and mass.
-- **Force** — A push or pull that can change an object's motion.
+- Mechanics — Study of forces and their effects on bodies.
+- Statics — Study of bodies in equilibrium.
+- Dynamics — Study of bodies in motion.
+- Kinematics — Description of motion without considering its causes.
+- Kinetics — Study of motion in relation to forces and mass.
+- Force — A push or pull that can change an object's motion.
 - **Moment** — Turning effect of a force about a point or axis.
 - **Torque** — Twisting moment, commonly associated with shafts and motors.
 - **Couple** — Two equal and opposite forces separated by a distance that produce a pure moment.
