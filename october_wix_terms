@@ -40,26 +40,38 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 Core Web Development Terms
 
 -HTML — The structure and content of a webpage.
-CSS — Controls styling, layout, colors, spacing, typography, etc.
-JavaScript — Adds behavior and interactivity to websites.
-DOM (Document Object Model) — The browser’s representation of a webpage that JavaScript can interact with.
-Responsive Design — Designing a site so it works well across different screen sizes.
-Viewport — The visible area of a webpage on a device.
-Breakpoint — A screen-width threshold where a layout changes.
-Flexbox — A CSS layout system for arranging elements.
-Grid — A layout system based on rows and columns.
-Semantic HTML — Using meaningful HTML elements such as <header>, <nav>, <main>, and <footer>.
-Accessibility (a11y) — Making websites usable by people with disabilities.
-SEO — Optimizing a website so it can perform better in search engines.
-Meta Tags — Information about a page used by search engines and browsers.
-Canonical URL — Identifies the preferred version of a URL to search engines.
-Favicon — The small icon associated with a website/page in browser tabs.
+-CSS — Controls styling, layout, colors, spacing, typography, etc.
+0. JavaScript — Adds behavior and interactivity to websites.
+-DOM (Document Object Model) — The browser’s representation of a webpage that JavaScript can interact with.
+-Responsive Design — Designing a site so it works well across different screen sizes.
+1.Viewport — The visible area of a webpage on a device.
+
+-Breakpoint — A screen-width threshold where a layout changes.
+-Flexbox — A CSS layout system for arranging elements.
+-Grid — A layout system based on rows and columns.
+
+
+2. Semantic HTML — Using meaningful HTML elements such as <header>, <nav>, <main>, and <footer>.
+
+3. Accessibility (a11y) — Making websites usable by people with disabilities.
+
+-SEO — Optimizing a website so it can perform better in search engines.
+
+-Meta Tags — Information about a page used by search engines and browsers.
+-Canonical URL — Identifies the preferred version of a URL to search engines.
+-Favicon — The small icon associated with a website/page in browser tabs.
+
+==================================================================
 Wix-Specific Terms
-Wix Editor — Wix's visual website-building environment.
-Wix Studio — Wix's professional web development platform for more advanced design and responsive control.
-Velo by Wix — Wix's development environment for adding JavaScript-based functionality.
-Wix CMS — Wix's content management system for storing and displaying structured content.
-CMS Collection — A database-like collection containing structured website content.
+-Wix Editor — Wix's visual website-building environment.
+-Wix Studio — Wix's professional web development platform for more advanced design and responsive control.
+
+
+4. Velo by Wix — Wix's development environment for adding JavaScript-based functionality.
+
+5. Wix CMS — Wix's content management system for storing and displaying structured content.
+6. CMS Collection — A database-like collection containing structured website content.
+
 Dataset — A Wix element that connects page elements to CMS collection data.
 Dynamic Page — A page whose content is generated from CMS data rather than being manually created for each item.
 Dynamic URL — A URL generated from CMS data, often containing an item's slug.
