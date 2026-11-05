@@ -5,26 +5,31 @@ Codes:
 
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Dataset — A Wix element that connects page elements to CMS collection data.
-Dynamic Page — A page whose content is generated from CMS data rather than being manually created for each item.
-Dynamic URL — A URL generated from CMS data, often containing an item's slug.
-Repeater — A Wix element that displays multiple items using the same layout.
-Wix App Market — Marketplace for adding apps and functionality to Wix sites.
-Wix Dashboard — The administrative area where site owners manage settings, content, analytics, products, etc.
-Site Members — Wix functionality for user accounts and member-only areas.
-Roles & Permissions — Controls determining who can access or modify certain content.
-Wix Forms — Tools for collecting information from website visitors.
-Wix Stores — Wix's ecommerce functionality.
-Wix Bookings — Tools for appointments, services, classes, and scheduling.
-Wix Events — Tools for creating and managing events.
-Wix Automations — Rules that trigger actions based on events or conditions.
-Wix Analytics — Tools for measuring website traffic and visitor behavior.
-Velo / Coding Terms
-Frontend — Code and functionality that runs in the visitor's browser.
-Backend — Server-side code that runs away from the visitor's browser.
-API — A way for different software systems to communicate.
-REST API — An API architecture commonly used for exchanging data over HTTP.
-Endpoint — A specific URL through which an API provides functionality or data.
+-Dataset — A Wix element that connects page elements to CMS collection data.
+0. Dynamic Page — A page whose content is generated from CMS data rather than being manually created for each item.
+1.Dynamic URL — A URL generated from CMS data, often containing an item's slug.
+- Repeater — A Wix element that displays multiple items using the same layout.
+-. Wix App Market — Marketplace for adding apps and functionality to Wix sites.
+-Wix Dashboard — The administrative area where site owners manage settings, content, analytics, products, etc.
+-Site Members — Wix functionality for user accounts and member-only areas.
+-Roles & Permissions — Controls determining who can access or modify certain content.
+-Wix Forms — Tools for collecting information from website visitors.
+-Wix Stores — Wix's ecommerce functionality.
+-Wix Bookings — Tools for appointments, services, classes, and scheduling.
+-Wix Events — Tools for creating and managing events.
+
+2. Wix Automations — Rules that trigger actions based on events or conditions.
+-Wix Analytics — Tools for measuring website traffic and visitor behavior.
+-Velo / Coding Terms
+
+3.Frontend — Code and functionality that runs in the visitor's browser.
+4. Backend — Server-side code that runs away from the visitor's browser.
+
+
+-API — A way for different software systems to communicate.
+-REST API — An API architecture commonly used for exchanging data over HTTP.
+
+5. Endpoint — A specific URL through which an API provides functionality or data.
 HTTP Request — A request sent between a client and server.
 GET — HTTP method generally used to retrieve data.
 POST — HTTP method generally used to submit or create data.
