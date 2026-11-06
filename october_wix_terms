@@ -30,12 +30,18 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 -REST API — An API architecture commonly used for exchanging data over HTTP.
 
 5. Endpoint — A specific URL through which an API provides functionality or data.
-HTTP Request — A request sent between a client and server.
-GET — HTTP method generally used to retrieve data.
-POST — HTTP method generally used to submit or create data.
-JSON — A common format for exchanging structured data.
-Promise — A JavaScript object representing an operation that may complete in the future.
+===============================================
+
+
+0. HTTP Request — A request sent between a client and server.
+1. GET — HTTP method generally used to retrieve data.
+2. POST — HTTP method generally used to submit or create data.
+3. JSON — A common format for exchanging structured data.
+4. Promise — A JavaScript object representing an operation that may complete in the future.
+
+======================================================================================================
 Async/Await — JavaScript syntax for working with asynchronous operations.
+
 Event Handler — Code that runs in response to something happening, such as a click.
 Function — A reusable block of code.
 Variable — A named value that can be stored and manipulated.
