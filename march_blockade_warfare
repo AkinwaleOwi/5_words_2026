@@ -98,15 +98,15 @@ Key Characteristics
 -| Port Capacity | The amount of cargo a port can process within a given period. |
 
 
-| Shipping Tonnage | The measurement of a vessel's cargo capacity or carrying volume, depending on context. |
-| Freight Rate | The price charged for transporting cargo. |
-| Insurance Premium | The cost of insuring a shipment or asset. |
-| War-Risk Insurance | Insurance covering specified risks associated with armed conflict. |
-| Supply Disruption | An interruption in the delivery of necessary goods. |
-| Resource Scarcity | A shortage of available resources relative to demand. |
-| Strategic Reserves | Stockpiles of essential goods maintained for emergencies. |
-| Energy Security | Reliable access to affordable energy supplies. |
-| Food Security | Reliable access to sufficient, safe, nutritious food. |
+-| Shipping Tonnage | The measurement of a vessel's cargo capacity or carrying volume, depending on context. |
+-| Freight Rate | The price charged for transporting cargo. |
+=| Insurance Premium | The cost of insuring a shipment or asset. |
+=| War-Risk Insurance | Insurance covering specified risks associated with armed conflict. |
+=| Supply Disruption | An interruption in the delivery of necessary goods. |
+=| Resource Scarcity | A shortage of available resources relative to demand. |
+=| Strategic Reserves | Stockpiles of essential goods maintained for emergencies. |
+=| Energy Security | Reliable access to affordable energy supplies. |
+-| Food Security | Reliable access to sufficient, safe, nutritious food. |
 
 # 5. Geography and maritime chokepoints
 
@@ -114,23 +114,25 @@ These geographic concepts are essential for understanding the history and intern
 
 | Term | Definition |
 | --- | --- |
-| Maritime Chokepoint | A narrow passage through which significant maritime traffic passes. |
-| Strait | A narrow natural waterway connecting larger bodies of water. |
-| Canal | An artificial waterway connecting bodies of water. |
-| Archipelago | A group or chain of islands. |
-| Littoral Zone | The coastal region where land and sea interact. |
-| Exclusive Economic Zone (EEZ) | Maritime zone in which a coastal state has specified resource rights under international law. |
-| Territorial Sea | Maritime area extending up to 12 nautical miles from a state's baseline under UNCLOS, subject to applicable rules. |
-| High Seas | Ocean areas beyond national maritime jurisdiction. |
-| International Waters | A general expression often used for maritime areas outside national territorial waters. |
-| Inland Waterway | A navigable river, lake, or canal. |
-| Port of Entry | An officially designated location where international traffic enters a country. |
-| Transshipment Hub | A port where cargo is transferred between vessels or transportation systems. |
-| Maritime Corridor | A recognized or designated route for maritime movement. |
+=| Maritime Chokepoint | A narrow passage through which significant maritime traffic passes. |
+-| Strait | A narrow natural waterway connecting larger bodies of water. |
+-| Canal | An artificial waterway connecting bodies of water. |
 
+
+-| Archipelago | A group or chain of islands. |
+-| Littoral Zone | The coastal region where land and sea interact. |
+
+$| Exclusive Economic Zone (EEZ) | Maritime zone in which a coastal state has specified resource rights under international law. |
+0| Territorial Sea | Maritime area extending up to 12 nautical miles from a state's baseline under UNCLOS, subject to applicable rules. |
+1| High Seas | Ocean areas beyond national maritime jurisdiction. |
+2| International Waters | A general expression often used for maritime areas outside national territorial waters. |
+$| Inland Waterway | A navigable river, lake, or canal. |
+3| Port of Entry | An officially designated location where international traffic enters a country. |
+4| Transshipment Hub | A port where cargo is transferred between vessels or transportation systems. |
+5| Maritime Corridor | A recognized or designated route for maritime movement. |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$4
 Important maritime locations to study
-
-伊朗被迫開啟荷莫茲海峽重擊共軍信心？意外揭露台灣海峽不可能被封鎖
 
 Maersk Sues Evergreen in Danish Court Over 2021’s Suez Canal Blockage
 
